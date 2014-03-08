@@ -95,9 +95,8 @@ p {
 
 /* Links */
 a {
-  color:#28679B;
+  color:#111111;
   text-decoration:none;
-  font-weight:bold;
   }
   a:hover {
     color:#3B96CB;
@@ -108,19 +107,17 @@ a {
 
 .button {
   display:inline-block;
-  background:#28679B;
+  background:#111111;
   color:#fff;
-  padding:8px 20px;
+  padding:0px 3px;
   -webkit-transition:color 50ms linear, background-color 50ms linear;
      -moz-transition:color 50ms linear, background-color 50ms linear;
        -o-transition:color 50ms linear, background-color 50ms linear;
           transition:color 50ms linear, background-color 50ms linear;
-  -webkit-border-radius:4px;
-          border-radius:4px;
   }
   .open .button,
   .button:hover {
-    background-color:#3B96CB;
+    background-color:#333333;
     color:#fff;
     }
 
@@ -324,7 +321,7 @@ table {
 /* Layout
 ------------------------------------------------------- */
 .limiter {
-  width:600px;
+  width:95%;
   margin:0 auto;
   }
 .header {
@@ -341,11 +338,11 @@ table {
   color:#ccc;
   }
 .main {
-  width:430px;
-  margin-left:20px;
+  width:95%;
+  margin-left:auto;
   }
 .posts {
-  width:150px;
+  
   }
   .inner {
     background:#fff;
@@ -357,7 +354,17 @@ table {
     .block .inner {
       background-color:#FFA;
       }
+.postbox {
+width: 120px;
+padding: 3px;
+background-color: f0f0f0;
+float:left;
+display: block;
+}
+.postbox img{
+padding: 10px;
 
+}
 /* Columns
 ------------------------------------------------------- */
 .col0    { float:left; width:04.1666%; }
@@ -412,7 +419,7 @@ table {
   .dropdown-menu .icon {
     float:right;
     position:relative;
-    top:3px;
+    top:1px;
     margin-left:5px;
     }
 
@@ -422,15 +429,13 @@ table {
   left:0;
   z-index:1000;
   float:left;
-  min-width:160px;
-  padding:5px 0;
+  /*min-width:160px;
+  padding:5px 0;*/
   margin:0;
   display:none;
   text-align:left;
   color:#fff;
   background-color:#2e2e2e;
-  -webkit-border-radius:4px;
-          border-radius:4px;
   -webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
      -moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
           box-shadow:0 5px 10px rgba(0,0,0,0.2);

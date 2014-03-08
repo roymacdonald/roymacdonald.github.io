@@ -1,0 +1,1 @@
+Yo soy roy macdonald.///Yo hago cosas.///Yo soy chileno.///Yo vivo en Santiago de Chile. 

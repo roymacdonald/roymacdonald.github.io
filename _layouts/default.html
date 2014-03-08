@@ -10,16 +10,16 @@ translations:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <title>royMacdonald {% if page.url != {{page.lang}}'/index.html' %}| {{page.title}}{% endif %}</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.url}}/img/favicon.ico' type='image/x-icon' />
   <link href='{{site.url}}/site.css' rel='stylesheet' />
 </head>
 <body>
-
   <div class='limiter'>
     <div class='header clearfix'>
+    <!-- LANGUAGE SELECTOR BEGIN-->
       <div class='dropdown-menu'>
         {% for item in site.languages %}
           {% if page.lang == item.key %}
@@ -36,33 +36,14 @@ translations:
           {% endfor %}
         </ul>
       </div>
-      <a href='{{site.url}}/{{page.lang}}/' class='home'>{{page.translations.[page.lang].home-link}}</a>
+      	<!-- LANGUAGE SELECTOR END-->
+	<div id='header'><h1><a href='{{site.url}}/{{page.lang}}/' class='home'>royMacdonald</a></h1>
+	{% capture myHeader%}{{page.lang}}/header.md{%endcapture%}
+	{% include  {{myHeader}}%}
+	</div>
+	
     </div>
 
-    <div class='container clearfix'>
-      <div class='posts fl'>
-        <div class='inner'>
-          <h3 class='label'>{{page.translations.[page.lang].post-title}}</h3>
-          <ul>
-            {% for post in site.categories.blog %}
-              {% if post.lang == page.lang %}
-                <li><a href='{{site.url}}{{post.url}}'>{{post.title}}</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-        <div class='block'>
-          <div class='inner'>
-            {% capture ad %}{% include blocks/ad.md %}{% endcapture %}
-            {{ ad | markdownify }}
-          </div>
-        </div>
-      </div>
-      <div class='main fl'>
-        <h1>{{page.title}}</h1>
-        {{content}}
-      </div>
-    </div>
-  </div>
+    {{content}}
   <script src='{{site.url}}/site.js'></script>
 </body>
