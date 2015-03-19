@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
   margin:0;
   padding:0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
   }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
   display:block;
   }
 body { line-height:1; }
@@ -43,9 +43,8 @@ table { border-collapse: collapse; border-spacing:0; }
 body,
 input,
 textarea {
-  background:#f6f6f6;
-  color:#333;
-  font:15px/1.67 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#fff;
+  font:15px/1.67 'Menlo', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {
@@ -95,11 +94,12 @@ p {
 
 /* Links */
 a {
-  color:#111111;
+  color:#00a0ff;
   text-decoration:none;
   }
   a:hover {
-    color:#3B96CB;
+  	color:#fff;
+    background-color:#ff2c38;
     }
   a.active {
     color:#404040;
@@ -317,20 +317,51 @@ table {
   height:20px;
   text-indent:-999em;
   }
+/* COLORES
+------------------------------------------------------- */
+
+/* HIGHLIGHTS*/
+span.HL-rosado{
+    background-color:#FB327F; 
+  }
+span.HL-negro{
+    background-color:#000;
+}
+
+/*TEXTOS*/
+span.TXT-blanco{ 
+	color:#fff;
+}
+span.TXT-celeste{
+  color:#00a0ff;
+}
+
+
 
 /* Layout
 ------------------------------------------------------- */
+body{
+height:100%;
+background-color:#000;
+}
+.container{
+background-color:#000;
+
+}
 .limiter {
   width:95%;
   margin:0 auto;
   }
+  .header p{
+  position:relative;
+  margin-top:5px;
+  }
 .header {
-  margin:40px 0;
-  padding:0 0 20px;
-  border-bottom:1px solid #ccc;
-  -webkit-box-shadow:0 1px 0 #fff;;
-          box-shadow:0 1px 0 #fff;;
+background-color:#fff;
+/*  margin:40px 0;
+  padding:0 0 20px;*/
   width:100%;
+    position:relative;
   }
 .container h1 {
   font-weight:bold;
@@ -338,7 +369,7 @@ table {
   color:#ccc;
   }
 .main {
-  width:95%;
+ /* width:95%;*/
   margin-left:auto;
   }
 .posts {
@@ -355,16 +386,21 @@ table {
       background-color:#FFA;
       }
 .postbox {
-width: 120px;
-padding: 3px;
-background-color: f0f0f0;
 float:left;
 display: block;
+
 }
 .postbox img{
 padding: 10px;
 
 }
+.postbox p {
+text-align:center;
+}
+.postbox p a span{
+padding:4px;
+}
+
 /* Columns
 ------------------------------------------------------- */
 .col0    { float:left; width:04.1666%; }
@@ -409,7 +445,11 @@ padding: 10px;
 ------------------------------------------------------- */
 .home {
   position:relative;
-  top:15px;
+  color:#fff;
+  background-color:#222;
+  padding:4px;
+  margin-bottom:100px;
+  font-size: 20px;
   }
 .dropdown-menu {
   display:inline-block;
@@ -546,3 +586,59 @@ Details: http://www.positioniseverything.net/easyclearing.html
     background-size:240px 240px;
     }
   }
+/*****************************************************************************/
+/*
+/* NAV
+/*
+/*****************************************************************************/
+
+.main-nav {
+	margin-top: 10px;
+}
+	.main-nav li {
+		display: inline-block;
+		margin-right: 10px;
+}
+	.main-nav li a {
+		/*	font-weight: 900;*/
+			font-size: 14px;
+			padding: 0.5em 1em;
+		/*	text-shadow: none;
+			text-transform: uppercase;	*/
+	}
+	.main-nav .current a{
+				background-color: #fc0;
+				color: #222;
+			/*	text-shadow: 0 1px 0 rgba(255,255,255,.3);*/
+	}
+
+.mobile-nav {
+	ul {
+		overflow: hidden;
+		width: 100%;
+		display: table;
+	}
+	a {
+		float: left;
+		width: 100%;
+		background-color: #333;
+		color: #fc0;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 900;
+		padding: 5px;
+	}
+	li {
+		display: table-cell;
+		width: 20%;
+		padding: 8px 2px;
+	}
+	.current {
+		a {
+			background-color: #fc0;
+			color: #222;	
+			text-shadow: 0 1px 0 rgba(255,255,255,.3);
+		}
+	}
+}

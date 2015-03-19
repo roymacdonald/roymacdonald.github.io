@@ -1,6 +1,6 @@
 name: royMacdonald
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 languages:
   - name: 'English'

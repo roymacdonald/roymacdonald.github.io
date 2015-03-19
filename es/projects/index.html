@@ -1,10 +1,15 @@
 ---
 layout: default
+title: Proyectos
+categories:
+ - es
+lang: es
+permalink: /es/projects/
 ---
 <div class='container clearfix'>
       <div class='posts fl'>
 
-            {% for post in site.posts %}
+            {% for post in site.categories.projects %}
               {% if post.lang == page.lang %}
             	<div class='postbox'>
             	<a href='{{site.url}}{{post.url}}'><img alt="{{post.title}}" src="{{site.url}}{{post.thumb}}"></a>

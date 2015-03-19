@@ -17,10 +17,9 @@ translations:
   <link href='{{site.url}}/site.css' rel='stylesheet' />
 </head>
 <body>
-  <div class='limiter'>
-    <div class='header clearfix'>
-    <!-- LANGUAGE SELECTOR BEGIN-->
-      <div class='dropdown-menu'>
+     <div class='header clearfix'>
+    	<!-- LANGUAGE SELECTOR BEGIN-->
+      	<div class='dropdown-menu'>
         {% for item in site.languages %}
           {% if page.lang == item.key %}
             <a href='#' class='button dropdown-hover'><span class='icon down'></span>{{item.name}}</a>
@@ -37,13 +36,14 @@ translations:
         </ul>
       </div>
       	<!-- LANGUAGE SELECTOR END-->
-	<div id='header'><h1><a href='{{site.url}}/{{page.lang}}/' class='home'>royMacdonald</a></h1>
-	{% capture myHeader%}{{page.lang}}/header.md{%endcapture%}
-	{% include  {{myHeader}}%}
-	</div>
-	
+		<div><a href='{{site.url}}/{{page.lang}}/' class='home'>royMacdonald.net</a>
+			<p><span class="TXT-blanco HL-rosado">
+			{% capture myHeader%}/{{page.lang}}/header.md{%endcapture%}
+			{% include  {{myHeader}}%}
+			</span></p>
+		</div>
     </div>
-
     {{content}}
   <script src='{{site.url}}/site.js'></script>
 </body>
+</html>

@@ -1,0 +1,25 @@
+<div class="main-nav">
+<ul>
+<li {% if page.overview %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/'>Inicio</a>
+</li>
+<li {% if page.url contains '/work/' %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/work/'>Trabajos</a>
+</li>
+<li {% if page.url contains '/projects/' %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/projects/'>Proyectos</a>
+</li>
+<li {% if page.url contains '/music/' %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/music/'>Música</a>
+</li>
+<li {% if page.url contains '/code/' %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/code/'>Código</a>
+</li>
+<li {% if page.url contains '/random/' %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/random/'>Ideas Random</a>
+</li>
+<li {% if page.url contains '/about/' %}class="current"{% endif %}>
+<a href='{{site.url}}/{{page.lang}}/about/'>Acerca de</a>
+</li>
+</ul>
+</div>
