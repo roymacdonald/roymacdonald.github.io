@@ -1,12 +1,6 @@
 name: royMacdonald
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
-
-languages:
-  - name: 'English'
-    key: 'en'
-  - name: 'Español'
-    key: 'es'
 
 # Prose settings
 prose:

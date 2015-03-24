@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class='container clearfix'>
+      <div class='posts fl'>
+            {% for post in site.posts %}
+            	{% assign found = false %}
+            	{% if page.selection == 'home' %}
+            		{% assign found = true %}
+            	{% else %}
+            		{% for cat in post.categories %}
+              			{% if cat == page.selection %}
+            				{% assign found = true %}
+            			{% endif %}
+            		{% endfor %}
+            	{% endif %}
+            	{% if found %}
+            		<div class='postbox'>
+            		<a href='{{site.url}}{{post.url}}'><img alt="{{post.title}}" src="{{site.url}}{{post.thumb}}"></a>
+                	<p><a href='{{site.url}}{{post.url}}'><span class="TXT-celeste">{{post.title}}</span></a></p>
+                	</div>
+            	{% endif %}
+            {% endfor %}
+    </div>
+  </div>

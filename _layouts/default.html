@@ -1,49 +1,20 @@
----
-translations:
-  en:
-    home-link: 'Home'
-    post-title: 'Posts'
-  es:
-    home-link: 'Inicio'
-    post-title: 'Mensajes'
----
 <!DOCTYPE html>
 <html>
-<head>
-  <title>royMacdonald {% if page.url != {{page.lang}}'/index.html' %}| {{page.title}}{% endif %}</title>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='shortcut icon' href='{{site.url}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.url}}/site.css' rel='stylesheet' />
-</head>
-<body>
-     <div class='header clearfix'>
-    	<!-- LANGUAGE SELECTOR BEGIN-->
-      	<div class='dropdown-menu'>
-        {% for item in site.languages %}
-          {% if page.lang == item.key %}
-            <a href='#' class='button dropdown-hover'><span class='icon down'></span>{{item.name}}</a>
-          {% endif %}
-        {% endfor %}
-        <ul class='dropdown'>
-          {% for i in site.languages %}
-            {% for post in site.posts %}
-            {% if {{page.date}} == {{post.date}} and {{post.lang}} == {{i.key}} %}
-              <li><a href='{{site.url}}{{post.url}}' {% if page.lang == i.key %}class='active'{% endif %}>{{i.name}}</a></li>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        </ul>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
       </div>
-      	<!-- LANGUAGE SELECTOR END-->
-		<div><a href='{{site.url}}/{{page.lang}}/' class='home'>royMacdonald.net</a>
-			<p><span class="TXT-blanco HL-rosado">
-			{% capture myHeader%}/{{page.lang}}/header.md{%endcapture%}
-			{% include  {{myHeader}}%}
-			</span></p>
-		</div>
     </div>
-    {{content}}
-  <script src='{{site.url}}/site.js'></script>
-</body>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
