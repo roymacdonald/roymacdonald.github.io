@@ -479,7 +479,11 @@ text-align:center;
 .postbox p a span{
 padding:4px;
 }
+.site-footer{
+/*background-color:#fff;*/
+height:100px;
 
+}
 /* Columns
 ------------------------------------------------------- */
 .col0    { float:left; width:04.1666%; }
