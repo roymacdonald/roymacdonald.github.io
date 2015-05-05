@@ -47,6 +47,14 @@ function updateDropdownMenu(L){
 };
 //---------------------------------------------------------------
 $(function() {
+//*
+$('#roymacdonald').mouseenter(function () {
+    $('#iam').animate({height: '125px'});
+  });
+$('.header').mouseleave(function () {
+    $('#iam').animate({height: '0px'});
+  });
+//*/
     var $dropdownmenu = $('.dropdown-menu');
     $dropdownmenu.each(function(i, el) {
         $(this).hover(function() {
