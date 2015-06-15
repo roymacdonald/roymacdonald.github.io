@@ -7,7 +7,7 @@ tags:
 thumb: /thumbs/fourier.jpg
 ---
 
-#Fourier Studies
+#Fourier Studies[WIP]
 
 Personal research in order to understand the [Fourier Transform](http://en.wikipedia.org/wiki/Fourier_transform), in particular the [Discrete Fourier Transform](http://en.wikipedia.org/wiki/Discrete_Fourier_transform).
 
