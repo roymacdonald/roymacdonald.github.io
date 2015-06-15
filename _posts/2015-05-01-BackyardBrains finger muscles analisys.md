@@ -4,7 +4,7 @@ date: 2015-06-01 12:10:00
 categories:
  - work
 tags: 
-thumb: /thumbs/BYB.jpg
+thumb: /thumbs/none.jpg
 ---
 
 #Backyard Brains finger muscles analysis app.
