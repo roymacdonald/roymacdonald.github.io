@@ -19,4 +19,4 @@ I'll push it soon to github as the project needs a bit of cleanup to make it use
 
 Excerpt:
 
-<iframe src="https://drive.google.com/file/d/0B5mz90wE4rsMOFdJUjFsLU5qcWc/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/0B5mz90wE4rsMOFdJUjFsLU5qcWc/preview" width="854" height="480"></iframe>
