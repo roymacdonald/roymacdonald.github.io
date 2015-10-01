@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class='container clearfix'>
+{{ content }}
+      <div class='blog-posts'>
+            {% for post in site.posts %}
+            	{% assign isBlog = false %}
+            	{% for cat in post.categories %}
+                	{% if cat == 'blog'  %}
+            	        {% assign isBlog = true %}            	    	
+            	    {% endif %}
+            	{% endfor %}
+            	{% if isBlog  %}
+                	<div class="blog-post-excerpt">
+                    	<a href='{{site.url}}{{post.url}}'><span class="blog-post-title">{{ post.title }}</span></a>
+                        <div class="blog-post-content-preview">
+                            {{ post.excerpt }}
+                        </div>
+                    </div>            	
+            	{% endif %}
+            {% endfor %}
+    </div>
+  </div>
