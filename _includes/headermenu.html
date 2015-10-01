@@ -28,5 +28,10 @@
 <a lang ='es' href='{{site.url}}/about/'>Acerca de</a>
 <a lang ='en' href='{{site.url}}/about/'>About</a>
 </li>
+<li {% if page.url contains '/blog/' %}class="current"{% endif %}>
+<a lang ='es' href='{{site.url}}/blog/'>blog</a>
+<a lang ='en' href='{{site.url}}/blog/'>blog</a>
+</li>
+
 </ul>
 </div>

@@ -6,15 +6,24 @@ layout: default
       <div class='posts fl'>
             {% for post in site.posts %}
             	{% assign found = false %}
-            	{% if page.selection == 'home' %}
-            		{% assign found = true %}
-            	{% else %}
-            		{% for cat in post.categories %}
-              			{% if cat == page.selection %}
-            				{% assign found = true %}
-            			{% endif %}
-            		{% endfor %}
+            	{% assign isNotBlog = true %}
+            	{% for cat in post.categories %}
+            	    	{% if cat == 'blog'  %}
+            	            {% assign isNotBlog = false %}            	    	
+            	    	{% endif %}
+            	{% endfor %}
+            	{% if isNotBlog  %}
+            	    {% if page.selection == 'home' %}
+            		    {% assign found = true %}
+            	    {% else %}
+            		    {% for cat in post.categories %}
+              			    {% if cat == page.selection && cat != 'blog'  %}
+            				    {% assign found = true %}
+            			    {% endif %}
+            		    {% endfor %}
+            	    {% endif %}
             	{% endif %}
+            	
             	{% if found %}
             		<div class='postbox'>
             		<a href='{{site.url}}{{post.url}}'><img class="imgBW"alt="{{post.title}}" src="{{site.url}}{{post.thumb}}"></a>
