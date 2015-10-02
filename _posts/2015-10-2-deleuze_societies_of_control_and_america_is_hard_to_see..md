@@ -1,0 +1,23 @@
+
+---
+layout: blogpost
+date: 2015-10-2 12:10:00
+categories:
+ - blog
+tags: sfpc
+title: SFPC's Concept and Theory studio.
+---
+#SFPC's Concept and Theory Studio
+##Writting Assignment 1
+####From Deleuze's Societies of Control to America is hard to see.
+
+
+*Deleuze* describes societies as machines; from simple mechanical ones -lever, pulleys and clocks- to complex information driven ones -like the one in which we live now. These machines, like any other of any kind, exist to perform something *useful* -although arguable, it usualy will be something that benefits the owner of the machine or the one in control of it. 
+
+Most human practices can be seen as an *useful* piece of this machine by almost directly relating its outcome, or its importance as a piece of it, to the benefit of the *controler*. Even though, Art -as an esential practice of human kind- is usualy hard to be labeled as *useful*; The outcome of art when seen from human expression -its essential motivation- has to go through other human being, its emotions, feelings, thoughts, culture and history, conciously and unconciously, before it can provoke a reaction on it. This reaction can be something catastrophic or highly benefical for the *controler*; like triggering a massive social revolution that becomes a fatal failure of the machinery or providing huge economical gain and market movent, yet usualy from derivates of the artwork itself. From Whitney's *America is hard to see* exhibition, take as example Hans Haacke's *Shapolsky et al. Manhattan Real Estate Holdings, a Real-Time Social System, as of May 1, 1971* and Keith Haring's artwork usualy seen as t-shirts and other products of mass consumption. Thus, Art within the machine is a double sided blade, for which the *controler* must be cautious about.
+
+The lines between the different Art's practices and those that aren't, thus their produce, has become progresively more blury, specially since Marcel Duchamp irrupted in the art world. As of today I can say that this lines have become not only completly blured but erased -yet there still are the Fine Arts practices (painting, sculpture, drawing, etc) it is more and more common to find artwork in mixed field; not only between the Art's fields but with fields outside of it (Art and Computer Programing anyone?). Before Duchamp's dusruption, Art was a very well defined and distinguishable piece within the *machine*, as well as its internal elements -disciplines- were clearly separables. Although it had this double-sided knife quality it was quite easily managed into its *useful* state and keep its practicioners well identified, like gears and mechanical, solid pieces in an old machine. Nowadays Art has become an *aether*, a gaseous substance, within the machine, not only hard to identify but also capable of penetrating other pieces of the *machine*  bluring their boundaries. 
+
+By using this ideas is quite easy to tell, conceptually speaking, what is Art; Art is any produce that is not clearly *useful*. But actually discriminating Art from non-Art, when such becomes an issue, is not easy because of the *useful* quality being highly subjective and because in many cases something just needs to be named as Art in order to become such.
+
+This untamable eathereal quality of contemporary art is the new weapon. Rather more than a weapon itself it is camouflage; a highly sophisticated one that uses human perception and interpretation capacity as its vehicle.
