@@ -1,25 +1,17 @@
 <header>
 	<div class='header clearfix'>
-		<!--{% include langselector.html %}-->
 		<a id="roymacdonald" href='{{site.url}}/' class='home'>royMacdonald</a>
 		{% if page.selection == 'home' %}
 		<div>
 		{% else %}
 		<div id="iam" style=" overflow-y: hidden; height:0px;">		
 		{% endif %}
-			<span class="TXT-blanco HL-rosado" lang='en'>
+			<span class="TXT-blanco HL-rosado">
 				I am Roy Macdonald.<br /> 
 				This is my portfolio/site.<br /> 
 				I make things with computers, electronics, code, images, sound, video, cameras and whatever else.<br /> 
 				I like to thoroughly understand things, how these work and try to make something with this understanding.<br />
 				I am a director, producer, artist, coder, wanabe physicist, maybe hacker.
-			</span>
-			<span class="TXT-blanco HL-rosado"  lang='es'>
-				Soy Roy Macdonald.<br /> 
-				Este es mi portafolio/sitio.<br /> 
-				Hago cosas con computadores, electrónica, código, imagenes, sonido, video, cámaras y lo que sea.<br /> 
-				Me gusta entender plenamente las cosas, como éstas funcionan e intentar hacer algo con este entendimiento.<br /> 
-				Soy director, productor, artista, programador, quisiera ser físico, quizas soy hacker.
 			</span>
 		</div>
 		{% include headermenu.html %}
