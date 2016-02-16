@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: post
 date: 2015-03-01 12:10:00
 categories:
  - projects
 tags: live-visuals
+video_gdrive: https://drive.google.com/file/d/0B5mz90wE4rsMOFdJUjFsLU5qcWc/preview
+video_width: 958
+video_height: 538
 thumb: /thumbs/farmacos.jpg
 ---
 
@@ -16,7 +19,3 @@ I've used Quartz Composer (QC) for several years, but as years pass, new OS vers
 
 I coded this system using openFrameworks, and made it modular and extensible. It mainly allows you to nest different transitions for something you want to draw. Then you just trigger this animations by hand or based on BPM. The cameras also had some parameters that could be animated. It worked really well, yet the GUI needs more love. 
 I'll push it soon to github as the project needs a bit of cleanup to make it useful to anyone.
-
-Excerpt:
-
-<iframe src="https://drive.google.com/file/d/0B5mz90wE4rsMOFdJUjFsLU5qcWc/preview" width="854" height="480"></iframe>

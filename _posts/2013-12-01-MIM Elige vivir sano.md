@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: post
 date: 2013-12-01 12:10:00
 categories:
  - work
+video_vimeo: 95450098
+video_width: 958
+video_height: 538
 thumb: /thumbs/mim.jpg
 ---
 <div lang='en'>
@@ -12,8 +15,7 @@ thumb: /thumbs/mim.jpg
 <h1>Estaciones Interactivas Museo Interactivo Mirador</h1>
 </div>
 
- <iframe src="https://player.vimeo.com/video/95450098?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+ 
  <div lang='en'>
 
 We were commisioned to develop 2 interactive games for the "Elige vivir sano" (choose a healthy life)room at the Museo Interactivo Mirador, in Santiago de Chile.

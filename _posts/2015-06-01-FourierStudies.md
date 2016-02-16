@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2015-06-01 12:10:00
 categories:
  - random

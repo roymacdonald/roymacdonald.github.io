@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
+{% if page.video_vimeo != nil  %}
+<div class="video-header">
+	<iframe src="https://player.vimeo.com/video/{{page.video_vimeo}}?portrait=0" width="{{page.video_width}}" height="{{page.video_height}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+{% endif  %}
+{% if page.video_gdrive != nil  %}
+<div class="video-header">
+	<iframe src="{{page.video_gdrive}}" width="{{page.video_width}}" height="{{page.video_height}}"></iframe></div>
+{% endif  %}
 <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
   <article class="post-content">
     {{ content }}
   </article>

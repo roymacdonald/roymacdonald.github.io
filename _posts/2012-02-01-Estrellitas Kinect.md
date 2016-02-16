@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: post
 date: 2012-02-01 12:10:00
 categories:
  - work
 tags: interactive  kinect
+video_vimeo: 29583432
+video_width: 958
+video_height: 538
 thumb: /thumbs/estrellitas.jpg
 ---
 <div lang='en'>
@@ -13,7 +16,6 @@ thumb: /thumbs/estrellitas.jpg
 <h1>Juegos Kinect Cereal Estrellitas de Nestlé</h1>
 </div>
 
-<iframe src="https://player.vimeo.com/video/29583432?byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p lang='en'>
 We were commisioned to develop a game using the Microsoft Kinect sensor for an AD campaing of Nestlé's Estrellitas Cereal.

@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: post
 date: 2013-02-01 12:10:00
 categories:
  - work
 tags: interactive  kinect
+video_vimeo: 57096403
+video_width: 958
+video_height: 538
 thumb: /thumbs/cocacola.jpg
 ---
 <div lang='en'>
@@ -12,8 +15,6 @@ thumb: /thumbs/cocacola.jpg
 <div lang='es'>
 <h1>Juegos Kinect Fábrica de la Felicidad CocaCola</h1>
 </div>
-
-<iframe src="https://player.vimeo.com/video/57096403?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
  <div lang='en'>
 We were commisioned to develop a game/instalation using the Microsoft Kinect sensor.

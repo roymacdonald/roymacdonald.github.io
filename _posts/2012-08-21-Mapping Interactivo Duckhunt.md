@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: post
 date: 2012-08-21 12:10:00
 categories:
  - work
 tags: interactive mapping
-
+video_vimeo: 50685633
+video_width: 958
+video_height: 538
 thumb: /thumbs/duckhunt.jpg
 ---
 <div lang='en'>
@@ -13,7 +15,7 @@ thumb: /thumbs/duckhunt.jpg
 <div lang='es'> 
 <h1>Mapping Interactivo Duckhunt para Dentyne/Trident</h1>
 </div>
-<iframe src="https://player.vimeo.com/video/50685633?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
  <div lang='en'>
 I developed this work while I was still working at Macrobio (I was one of the owners/partners, lead developer and project director). It was codeveloped with [DelightLab](http://delightlab.com/ "Delight Lab") for the  Dentyne/Trident brand.
