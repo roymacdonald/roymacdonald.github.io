@@ -12,6 +12,7 @@ thumb: /thumbs/fourier.jpg
 Personal research in order to understand the [Fourier Transform](http://en.wikipedia.org/wiki/Fourier_transform), in particular the [Discrete Fourier Transform](http://en.wikipedia.org/wiki/Discrete_Fourier_transform).
 
 ## [2008]
+
 ### Intro
 Some time ago, circa 2008, when I was just getting into programming I was also doing a lot of stuff with audio, mainly music production. I became very intrigued by some audio analysis tools, in particular with [Melodyne](http://www.celemony.com/en/melodyne/what-is-melodyne) as it was able to decompose polyphonic signals into its musical notes and let you modify each note individually. I wanted to understand how computers were able to detect each note of an instrument with all the harmonics that conform it. The first and almost obvious thing to do was to "play" with the [Fast Fourier Transform](http://en.wikipedia.org/wiki/Fast_Fourier_transform).
 By that time I was learning to code using [Processing](https://processing.org/) and I did a lot of experiments and visualizations dealing with FFTs. It was fun and I learned a lot, both about programming, audio analysis and FFTs. I even made my own FFT class from scratch, just looking at the maths involved (of course there are already a big bunch of FFT implementations, probably done much better that what I did, but this was for a learning purpose).

@@ -12,17 +12,14 @@ video_height: 600
 
 # New York City is flat... almost
 
-<p>Made using openFrameworks<br /> code and MacOSX app available at https://github.com/roymacdonald/flatCity</p>
+This is a visualization of the streets of New York City, which moves through these following the route I made everyday from the School For Poetic Computation in Manhattan's East Village to Brooklyn's Crown Heights where I lived whith an emphasis on the elevation of the streets.
 
-<span style="font-family:serif;font-size:2.5em;line-height:0.9">This city seems to be flat.  
-Its small hills became irrelevant  
-sided by gigantic buldings.</span>
+All the street data was mined and scraped out from G's Street View, which was then fed to a custom application made with openFrameworks. The user can rotate the point of view by dragging the mouse and also alter some parameters, out of which the most relevant was the elevation multiplication factor. This piece was presented an the School For Poetic Computation Fall 2015 final showcase, where an Oculus Rift was used instead of the regular screen.
 
-<span style="font-family:serif;font-size:2.5em;line-height:0.9">With motorized vehicles  
-this hills and slopes pass unnoticed  
-by walking it's just a few blocks  
-so there's no overall picture.</span>
+On Fall 2015 I arived to New York City to attend to the School For Poetic Computation. My first impression of the city, at least for Manhattan, was that it was maily flat. There seemed to be no hills, or at least these were barely noticeable and completely ocluded by the huge buildings. A week after I bought a bicycle and my perception changed. By pedaling you notice the ups and downs, as these imply more or less effort and because of the hability of traveling quite large distances you start to get an overall idea of the shape and elevation of the city; this made me curious about how really was the topology of NYC streets. 
+The plain scraped and plotted data doesn't reveal much about the elevation aspects of the streets, only by exagerating it is possible to view and transmit the idea and feeling of the city that bicycling though it provides.
 
-<span style="font-family:serif;font-size:2.5em;line-height:0.9">Only when cycling through the city  
-you can feel even the slightest slope.</span>
+This was made using openFrameworks.
+Code and MacOSX app available at [https://github.com/roymacdonald/flatCity](https://github.com/roymacdonald/flatCity)
+
 
