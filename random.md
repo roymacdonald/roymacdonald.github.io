@@ -5,6 +5,6 @@ selection: random
 permalink: /random/
 ---
 
-#Random
+# Random
 
 Anything that doesn't fit elsewhere.

@@ -6,7 +6,7 @@ permalink: /music/
 ---
 
 
-#Music
+# Music
 
 Music is one of the things I like the most of all. All about it.<br />
 I've struggled a lot to be able to play guitar decently enough. The guitar is my musical instrument, is the one I know the best, I feel comfortable playing it, although I'm far from being a virtuoso. On the other side machines, knobs, technical equiment and the recording process came to me as a very natural and intuitive thing. Its use has never been a struggle. My first approach to these was because I was trying to understand why the recordings I did were so crappy. I began to obsessively research and study music technology and the recording and mixing process. This took me to produce serval records for different bands/projects, altough the first ones were guinea pigs. 
@@ -33,7 +33,7 @@ I produced, recorded, mixed and mastered this album.
 
 
 
-##others
+## others
 There are several others that were not published propperly and can't find online.:(
 
 
