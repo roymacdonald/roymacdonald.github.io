@@ -1,6 +1,6 @@
 name: royMacdonald
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Prose settings
 prose:
