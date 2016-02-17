@@ -10,7 +10,7 @@ function setLang(L){
 	    });
 	}
 	updateDropdownMenu(L);
-	sessvars.lang = L;
+	//sessvars.lang = L;
 };
 //---------------------------------------------------------------
 function getLangName(L){
@@ -23,10 +23,15 @@ function getLangName(L){
 };
 //---------------------------------------------------------------
 $(document).ready(function(){
-	if(!sessvars.lang){
-		sessvars.lang = 'en';
-	}
-	setLang(sessvars.lang);
+	///if(!sessvars.lang){
+		//sessvars.lang = 'en';
+	//}
+	//setLang(sessvars.lang);
+
+$('.post-content img').each(function( index ) {
+$( this ).wrap("<a class=\"post-img\" href=\"" + $( this ).attr("src")+ "\" data-lightbox=\"img-set\" data-title=\""+ $( this ).attr("alt") +"\"></a>");});
+
+
 }); 
 //---------------------------------------------------------------
 function updateDropdownMenu(L){
@@ -45,9 +50,10 @@ function updateDropdownMenu(L){
         $('a.dropdown-hover').html(getLangName(L));
         $('.dropdown-menu').removeClass('open');
 };
+
 //---------------------------------------------------------------
 $(function() {
-//*
+//console.log("function  ");
 $('#roymacdonald').mouseenter(function () {
     $('#iam').animate({height: '125px'});
   });
@@ -71,6 +77,11 @@ $('.header').mouseleave(function () {
     $('.langOpt').click(function(){
 		var L = $(this).attr("lang");
         setLang(L);
+    });
+     lightbox.option({
+      'resizeDuration': 200,
+      'fadeDuration': 300,
+      'wrapAround': true
     });
 });
 //---------------------------------------------------------------
