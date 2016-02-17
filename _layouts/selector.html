@@ -7,6 +7,7 @@ layout: default
             {% for post in site.posts %}
             	{% assign found = false %}
             	{% assign isNotBlog = true %}
+                {% if post.show_in_home != false %}
             	{% for cat in post.categories %}
             	    	{% if cat == 'blog'  %}
             	            {% assign isNotBlog = false %}            	    	
@@ -23,7 +24,7 @@ layout: default
             		    {% endfor %}
             	    {% endif %}
             	{% endif %}
-            	
+            	{% endif %}
             	{% if found %}
             		<div class='postbox'>
             		<a href='{{site.url}}{{post.url}}'><img class="imgBW"alt="{{post.title}}" src="{{site.url}}{{post.thumb}}"></a>

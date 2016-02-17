@@ -357,6 +357,11 @@ background-color:#000;
 background-color:#000;
 
 }
+.img_poster {
+  width:100%;
+  max-height: 250px;
+  overflow: hidden;
+}
 .limiter {
   width:95%;
   margin:0 auto;

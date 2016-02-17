@@ -4,6 +4,7 @@ date: 2015-06-01 12:10:00
 categories:
  - random
 tags: 
+poster_img: /img/fourier_studies/fourier_studies_poster.png
 thumb: /thumbs/fourier.jpg
 ---
 
@@ -80,6 +81,9 @@ There are a lot of analogies with spinning discs to exemplify this, but I think 
 
 
 ...to be continued.
-
+![image](/img/fourier_studies/fourier_studies_1.png)
+![image](/img/fourier_studies/fourier_studies_2.png)
+![image](/img/fourier_studies/fourier_studies_3.png)
+![image](/img/fourier_studies/fourier_studies_4.png)
 
 
