@@ -10,7 +10,7 @@ video_height: 538
 thumb: /thumbs/LGLolla.jpg
 ---
 
-#App LG Lollapalooza Chile 2013
+# App LG Lollapalooza Chile 2013
 
 
 Android app developed for the LG Optimus G at Lollapalooza Chile 2013.

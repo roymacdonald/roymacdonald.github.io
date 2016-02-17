@@ -10,7 +10,7 @@ video_width: 958
 video_height: 600
 ---
 
-#New York City is flat... almost
+# New York City is flat... almost
 
 <p>Made using openFrameworks<br /> code and MacOSX app available at https://github.com/roymacdonald/flatCity</p>
 
