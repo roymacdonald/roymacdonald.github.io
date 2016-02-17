@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 selection: music
 lang: en
 permalink: /music/
@@ -17,7 +17,7 @@ I am a founding member of the online record label [Uva Robot](http://www.uvarobo
 
 Some of these recordings:
 
-##[variosArtistas](http://www.variosartistas.cl)
+## [variosArtistas](http://www.variosartistas.cl)
 
 This is my band. I produced, recorded, mixed and played guitar
 
@@ -26,7 +26,7 @@ This is my band. I produced, recorded, mixed and played guitar
 <iframe style="border: 0; width: 600px; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=1725314539/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://uvarobot.cl/album/abandonan-europa">Abandonan Europa by VariosArtistas</a></iframe>
 
 
-##[Tus Amigos Nuevos](http://www.tusamigosnuevos.com)
+## [Tus Amigos Nuevos](http://www.tusamigosnuevos.com)
 I produced, recorded, mixed and mastered this album.
 
 <iframe style="border: 0; width: 600px; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3402165205/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://uvarobot.cl/album/no-s-son">NO SÍ SON by Tus Amigos Nuevos</a></iframe>
