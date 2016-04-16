@@ -14,6 +14,6 @@ I made it to use it with the RGBD Toolkit. Soon it became the official RGBD Tool
 You still can download the 3D model from [here](http://www.thingiverse.com/thing:27510) and print it.
 
 
-![image](../img/kinectRGBD1.jpg)
+![image](/img/kinectRGBD1.jpg)
 
-![image](../img/kinectRGBD2.jpg)
+![image](/img/kinectRGBD2.jpg)
