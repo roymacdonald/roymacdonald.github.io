@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-10-27 12:10:00
+date: 2012-07-28 00:00:00
 categories:
  - projects
 tags: rgbd rgbdtoolkit
