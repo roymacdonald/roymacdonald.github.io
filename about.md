@@ -17,6 +17,6 @@ On 2010 he created his own new-media design studio, called Macrobio, in Santiago
 
 On fall 2015 he assisted to the [School For Poetic Computation](http://sfpc.io) in New York City.
 
-During March and April he was teaching creative coding at [OF COURSE](http://http://ofcourse.io/) in Shanghai, China.
+During March and April 2016 he was teaching creative coding at [OF COURSE](http://http://ofcourse.io/) in Shanghai, China.
 
-Currently residing in Santiago, Chile.
+Currently he is residing in Santiago, Chile.
