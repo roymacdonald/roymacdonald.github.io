@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300"/>
+   <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300"/>
+  <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script> 
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <link href='/css/site.css' rel='stylesheet' />
+
+</head>
+
+<body>
+  {{content}}
+{% for proj in site.data.portafolio %}{% for post in site.posts %}{% if post.id == proj.id %}{% include post_port.html post=post %}{% endif %}{% endfor %}{% endfor %}
+
+</body>
+
+</html>
