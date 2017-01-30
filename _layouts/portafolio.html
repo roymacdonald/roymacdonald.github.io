@@ -15,10 +15,15 @@
 </head>
 
 <body>
+  <div class="header_port_dma">
+<h3> UCLA  Design - Media Arts Master in Fine Arts Application Portfolio</h3>
+
+<h1> Roy James Macdonald </h1>
+</div>
   {{content}}
-{% for proj in site.data.portafolio %}{% for post in site.posts %}{% if post.id == proj.id %}{% include post_port.html post=post %}{% endif %}{% endfor %}
-<div class="division"></div>
-{% endfor %}
+{% for proj in site.data.portafolio %}{% for post in site.posts %}{% if post.id == proj.id %}{% include post_port.html post=post %}{% endif %}{% endfor %}{% endfor %}
+
+<div class="port_footer"></div>
 
 </body>
 

@@ -8,9 +8,9 @@ video_vimeo: 63744681
 video_width: 958
 video_height: 538
 thumb: /thumbs/LGLolla.jpg
+title: App LG Lollapalooza Chile 2013
+macrobio: true
 ---
-
-# App LG Lollapalooza Chile 2013
 
 
 Android app developed for the LG Optimus G at Lollapalooza Chile 2013.

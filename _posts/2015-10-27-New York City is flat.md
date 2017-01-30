@@ -8,9 +8,8 @@ thumb: /thumbs/flatNYC.jpg
 video_vimeo: 143779655
 video_width: 958
 video_height: 600
+title: New York City is flat... almost
 ---
-
-# New York City is flat... almost
 
 This is a visualization of the streets of New York City, which moves through these following the route I made everyday from the [School For Poetic Computation](http://sfpc.io) in Manhattan's East Village to Brooklyn's Crown Heights where I lived, making an emphasis on the elevation of the streets.
 

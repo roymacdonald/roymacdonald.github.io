@@ -5,13 +5,9 @@ categories:
  - projects
 tags: interactive computerVision photo
 thumb: /thumbs/CamServos.jpg
+title: "Defective aparatus: It refuses to behave according to its original rules and insists on avoiding people. part 0"
+WIP: true
 ---
-
-# Aparato defectuoso: Se rehúsa a comportarse según sus normas originales e insiste en evitar a las personas. parte 0
-
-## Defective aparatus: It refuses to behave according to its original rules and insists on avoiding people. part 0
-
-####[WORK-IN-PROGRESS]
 
 ![image](/img/CamServos.jpg)
 ![image](/img/camArduinos.jpg)

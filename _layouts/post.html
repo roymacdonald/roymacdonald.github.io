@@ -4,6 +4,43 @@ layout: default
 {% include post_video.html %}
 <div class="post">
   <article class="post-content">
+  	<h1>{{ page.title }}</h1>
+  	{% if page.subtitle != nil %}
+  	<h3>{{ page.subtitle }}</h3>
+  	{% endif %}
+	{% if page.WIP != nil || page.FAIL != nil%}
+		<div class="wip_or_fail">
+		{% if page.WIP != nil %}
+  			{% if page.WIP == true %}
+  				<div class="wip">[ WORK IN PROGRESS ]</div>
+  			{% endif %}
+  		{% endif %}
+  		{% if page.FAIL != nil %}
+  			{% if page.FAIL == true %}
+  				<div class="fail">[ FAIL ]</div>
+  			{% endif %}
+  		{% endif %}
+  	</div>
+  	{% endif %}
     {{ content }}
+    {% if page.macrobio != nil %}
+    	{% if page.macrobio == true %}
+    		<div class="con_macrobio">
+    			I worked on this project while I had my studio [Macrobio](http://www.macrobio.cl "Macrobio").
+    		</div>
+    	{% endif %}
+    {% endif %}
   </article>
 </div>
+{% if page.galery_data != nil %}
+  	<div class="galery">
+  		 <h2>{{page.galery_name}}</h2>
+  		{% for img in site.data[page.galery_data] %}
+  			<div class="galery_thumb">
+  			<a href="{{site.url}}{{img.img}}" data-lightbox="img-set" data-title="img">
+  			<img src="{{site.url}}{{img.thumb}}" width="100%" height="100%"/>
+  			</a>
+  			</div>
+  		{% endfor %}
+  	</div>
+  	{% endif %}

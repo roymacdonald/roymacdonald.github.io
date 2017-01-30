@@ -720,9 +720,47 @@ Details: http://www.positioniseverything.net/easyclearing.html
   height: 1px;
   width: 700px;
   margin-top: 40px;
-  margin-right:  auto ; 
-  margin-left:  auto ; 
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.titulo_post_port{
+  
+}
+.wip_or_fail{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.wip, .fail{
+  display: inline-block;
+  margin:0;
+  font-weight:100;
+  font-family:Merriweather, serif;/*Lato, Helvetica, Arial, sans-serif;*/
+  font-size:32px;
+  margin-bottom:20px;
+  line-height:1em;
+  letter-spacing: 3px;
+}
+.wip{
+  color: yellow;
+}
+.fail{
+  color: red;
+}
+.con_macrobio{
+
+}
+.port_footer{
+height: 100px;
+}
+.header_port_dma{
+margin-left: 20px;
+margin-top: 36px;
+margin-bottom: 15px;
+}
+.video_header_port{
+width:600px;
+height:375px;
+min-height:375px;
 }
 /*****************************************************************************/
 /*

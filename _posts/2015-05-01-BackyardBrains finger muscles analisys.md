@@ -5,9 +5,8 @@ categories:
  - work
 tags: 
 thumb: /thumbs/byb.jpg
+title: Backyard Brains finger muscles analysis app.
 ---
-
-# Backyard Brains finger muscles analysis app.
 
 Tim Marzullo, one of the [exceptional] brains behind [BackyardBrains](http://backyardbrains.com) asked me for some help. He was using five of theirs muscle spike interface, stacked together and conected to a single Arduino. With several electrodes stuck into his fore arm he was able to get the signals of the muscles that control each finger. Just using some very simple rules on the arduino and threshold values he was able to trigger an LED when any of the fingers moved. 
 The problem here was that the he was setting the threshold by hand, actually by the very tedious method of looking at the serial output of the arduino in order to catch more or less where the threshold should be, hence by a lot of trial and error.

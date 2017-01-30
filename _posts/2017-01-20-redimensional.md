@@ -8,9 +8,8 @@ thumb: /thumbs/redimensional.jpg
 video_vimeo: 200435042
 video_width: 958
 video_height: 599
+title: REDIMENSIONAL
 ---
-
-# REDIMENSIONAL
 
 Time is often thought, in physics, as our fourth dimension. Time and images, formally speaking, are the building blocks of movies. As images only have two dimensions, time becomes the third dimension of movies. This condition allows us to create a single three dimensional object that represents the whole movie, although because of the opaque nature of the pixels only the external faces of this objects become visible. Just like in medical CT Scans, we can slice this object in order to reveal its internal features. The slices can be on any plane of this object. As we keep on slicing and watching at each slice as a new frame of the movie we become able to watch the  movie from a completely different perspective. The inner workings of the movie shot are revealed somehow; camera movements, actors movements, scenery, or simply strange yet very appealing abstract images. There is an infinite number of possible slices; images become infinite which transcend the original, never changing, movie.
 

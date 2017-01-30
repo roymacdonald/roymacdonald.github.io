@@ -5,9 +5,8 @@ categories:
  - work
 tags: interactive mapping
 thumb: /thumbs/mappingRancagua.jpg
+title: Interactive video mapping Mall Rancagua
 ---
-
-# Interactive video mapping Mall Rancagua
 
 Three projectors were used to project over a conical column inside a mall in Rancagua, Chile.
 When users standed in a marked spot and looked to the camera placed above the column a photo was taken automatically using face detection, the face was cropped, masked and placed over the characters of an animation. This project was co-developed with [DelightLab](http://www.delightlab.com).

@@ -6,9 +6,8 @@ categories:
 tags: 
 poster_img: /img/fourier_studies/fourier_studies_poster.png
 thumb: /thumbs/fourier.jpg
+title: Fourier Studies[WIP]
 ---
-
-# Fourier Studies[WIP]
 
 Personal research in order to understand the [Fourier Transform](http://en.wikipedia.org/wiki/Fourier_transform), in particular the [Discrete Fourier Transform](http://en.wikipedia.org/wiki/Discrete_Fourier_transform).
 

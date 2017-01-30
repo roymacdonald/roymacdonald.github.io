@@ -8,10 +8,9 @@ video_gdrive: https://drive.google.com/file/d/0B5mz90wE4rsMOFdJUjFsLU5qcWc/previ
 video_width: 958
 video_height: 538
 thumb: /thumbs/farmacos.jpg
+title: Live Visuals Farmacos Lollapalooza 2015
 ---
-
-# Live Visuals Farmacos Lollapalooza 2015
-
+ 
 I was asked by the chilean band [Fármacos](http://www.ffarmacos.com/) to help them with the visuals for their show in the Lollapalooza Chile music festival.
 They wanted something simple and abstract. Mainly geometric shapes. No colors.
 
