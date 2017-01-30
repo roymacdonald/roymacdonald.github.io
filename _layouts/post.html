@@ -1,22 +1,9 @@
 ---
 layout: default
 ---
-{% if page.video_vimeo != nil  %}
-<div class="video-header">
-	<iframe src="https://player.vimeo.com/video/{{page.video_vimeo}}?portrait=0" width="{{page.video_width}}" height="{{page.video_height}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-{% endif  %}
-{% if page.poster_img != nil  %}
-<div class="img_poster">
-	<img src="{{page.poster_img}}" width="100%" height="100%"></img>
-</div>
-{% endif  %}
-{% if page.video_gdrive != nil  %}
-<div class="video-header">
-	<iframe src="{{page.video_gdrive}}" width="{{page.video_width}}" height="{{page.video_height}}"></iframe></div>
-{% endif  %}
+{% include post_video.html %}
 <div class="post">
   <article class="post-content">
     {{ content }}
   </article>
-
 </div>

@@ -1,6 +1,8 @@
+<div class="post">
 {% if include.post.video_vimeo != nil  %}
-<div style="margin:30px; background:red">
-	<iframe src="https://player.vimeo.com/video/{{include.post.video_vimeo}}?portrait=0" width="{{include.post.video_width}}" height="{{include.post.video_height}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<div class="video-header-port">
+	<iframe src="https://player.vimeo.com/video/{{include.post.video_vimeo}}?portrait=0"  width="{{page.video_width}}" height="{{page.video_height}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 {% endif  %}
 {% if include.post.poster_img != nil  %}
@@ -10,9 +12,10 @@
 {% endif  %}
 {% if include.post.video_gdrive != nil  %}
 <div class="video-header">
-	<iframe src="{{include.post.video_gdrive}}" width="{{include.post.video_width}}" height="{{include.post.video_height}}"></iframe></div>
+	<iframe src="{{include.post.video_gdrive}}" width="{{include.post.video_width}}" height="{{include.post.video_height}}"></iframe>
+</div>
 {% endif  %}
-<div class="post">
+
   <article class="post-content">
     {{ include.post.content }}
   </article>

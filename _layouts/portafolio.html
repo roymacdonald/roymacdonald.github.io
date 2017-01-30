@@ -16,7 +16,9 @@
 
 <body>
   {{content}}
-{% for proj in site.data.portafolio %}{% for post in site.posts %}{% if post.id == proj.id %}{% include post_port.html post=post %}{% endif %}{% endfor %}{% endfor %}
+{% for proj in site.data.portafolio %}{% for post in site.posts %}{% if post.id == proj.id %}{% include post_port.html post=post %}{% endif %}{% endfor %}
+<div class="division"></div>
+{% endfor %}
 
 </body>
 

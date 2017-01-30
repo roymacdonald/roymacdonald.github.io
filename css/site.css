@@ -362,6 +362,43 @@ background-color:#000;
   max-height: 250px;
   overflow: hidden;
 }
+
+.galery:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+.galery{
+
+  width: 80%;
+  max-width: 1000px;
+  
+  padding-top: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-width: 1px;
+  border-top-color: rgb(250,250,250);
+  border-top-style: solid;
+  text-align: justify;
+  font-size: 0.1px; /* IE 9 & 10 don't like font-size: 0; */
+  /*min-width:600px;*/
+}
+/*.galery:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  }*/
+.galery_thumb{
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 200px;
+  max-height: 200px;
+}
+.galery_thumb img{
+  padding: 10px;
+}
 .limiter {
   width:95%;
   margin:0 auto;
@@ -675,6 +712,17 @@ Details: http://www.positioniseverything.net/easyclearing.html
 			text-shadow: 0 1px 0 rgba(255,255,255,.3);
 		}
 	}
+}
+.division {
+  min-height: 1px;
+  background-color: rgb(255,255,255);
+  min-width: 600px;
+  height: 1px;
+  width: 700px;
+  margin-top: 40px;
+  margin-right:  auto ; 
+  margin-left:  auto ; 
+  margin-bottom: 30px;
 }
 /*****************************************************************************/
 /*
