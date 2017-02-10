@@ -471,6 +471,12 @@ max-width: 600px;
 margin:auto;
 
 }
+.iam-line {
+margin-top: 5px;
+line-height: 23px;
+display: table;
+padding-left: 100px;
+}
 /* Columns
 ------------------------------------------------------- */
 .col0    { float:left; width:04.1666%; }
