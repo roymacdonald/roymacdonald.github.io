@@ -442,15 +442,15 @@ background-color:#fff;
   background-color:#FFA;
 }
 .postbox {
-float:left;
-display: block;
-
+display: inline-block;
+vertical-align: top;
 }
 .postbox img{
 padding: 10px;
 }
 .postbox p {
 text-align:center;
+max-width: 320px;
 }
 .postbox p a span{
 padding:4px;
