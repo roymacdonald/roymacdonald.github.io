@@ -20,3 +20,5 @@ On fall 2015 he assisted to the [School For Poetic Computation](http://sfpc.io) 
 During March and April 2016 he was teaching creative coding at [OF COURSE](http://http://ofcourse.io/) in Shanghai, China.
 
 Currently he is residing in Santiago, Chile.
+
+Drop me a line: macdonald.roy (at) (the electronic mail from the big G).
