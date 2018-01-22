@@ -8,8 +8,6 @@ thumb: /thumbs/recoded.jpg
 video_vimeo: 159313947
 video_width: 958
 video_height: 539
-galery_data: recoded
-galery_name: Debug Views
 title: SFPC's Re-Coded
 subtitle: An open-source, collaborative, educational installation.
 ---
