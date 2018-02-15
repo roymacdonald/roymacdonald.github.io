@@ -29,3 +29,7 @@ Even when in most major cities surveillance systems are ubiquitous, from small h
 In a similar way, the data that I extracted from the cars/people passing through this roundabout was presented to the audience at this event, the few privileged ones that were able to see it from above as it was not visible from street level. By presenting this data in a very pleasing, even hypnotizing aesthetic form this work tries -hopefully without success- to mask the social threshold that this city location represents.
 
 Aereal videography by [Gonzalo Zuñiga](https://www.instagram.com/fotosaereas/)
+
+Laser Projector provided by Raul Zamorano.
+
+Made with [openFrameworks](http://openframeworks.cc/)
