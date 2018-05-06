@@ -16,7 +16,7 @@ Time is often thought, in physics, as our fourth dimension. Time and images, for
 
 
 This is an interactive application which allows the user to view any video file as a
-three dimensional object made by stacking the video frames. The user can slice this object on any plane. By set a begining and an end plane it will animate the slicing which will have the same duration as the original video piece.
+three dimensional object made by stacking the video frames. The user can slice this object on any plane. By set a beginning and an end plane it will animate the slicing which will have the same duration as the original video piece.
 Because of the limited amount of memory on the graphics card, it is only possible to load short pieces of video, so this app will automatically detect scene cuts and load scene by scene.
 
 This application was made using [openFrameworks](http://openframeworks.cc) and its code will be soon available as open source.
