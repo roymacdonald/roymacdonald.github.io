@@ -13,10 +13,10 @@ macrobio: true
 lang: en
 ---
 
-We were commisioned to develop a game/instalation using the Microsoft Kinect sensor.
+We were commissioned to develop a game/installation using the Microsoft Kinect sensor.
 
 The user had to help the narrator advancing chapters using arm gestures, while he was telling about the history of CocaCola in Chile.
 
-At a certain point during the story the narratoy invites the user to play some soccer penalty shots. The user just kicks the air, while the system detects the kicks and analyzes its direction and velocity in order to display the correct animations.
+At a certain point during the story the narrator invites the user to play some soccer penalty shots. The user just kicks the air, while the system detects the kicks and analyzes its direction and velocity in order to display the correct animations.
 
 I developed this work while I was still working at Macrobio (I was one of the owners/partners, lead developer and project director).

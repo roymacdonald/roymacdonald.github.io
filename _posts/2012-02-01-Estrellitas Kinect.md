@@ -13,9 +13,9 @@ macrobio: true
 lang: en
 ---
 
-We were commisioned to develop a game using the Microsoft Kinect sensor for an AD campaing of Nestlé's Estrellitas Cereal.
+We were commissioned to develop a game using the Microsoft Kinect sensor for an AD campaign of Nestlé's Estrellitas Cereal.
 
-As far as I understand this was the first use of the Kinect Sensor in an AD campaing in Chile.
+As far as I understand this was the first use of the Kinect Sensor in an AD campaign in Chile.
 
 By detecting arm gestures, the user had to free a spaceship trapped by space debris, by throwing tiny stars (Estrellitas) towards it.
 
