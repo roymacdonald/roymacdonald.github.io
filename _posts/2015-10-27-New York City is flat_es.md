@@ -9,7 +9,7 @@ video_vimeo: 143779655
 video_width: 958
 video_height: 600
 title: New York City is flat... almost
-lang: es
+lang: en
 ---
 Esta es una visualización interactiva de las calles de la ciudad de Nueva York, que se mueve a través de éstas siguiendo el camino que realizaba en bicicleta a diario desde el [School For Poetic Computation](http://sfpc.io) (SFPC) ubicado en el East Village de Manhattan hasta Crown Heights en Brooklyn donde estaba viviendo, haciendo énfasis en la elevación de las calles.
 
