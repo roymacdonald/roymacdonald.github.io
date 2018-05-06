@@ -3,12 +3,13 @@ layout: post
 date: 2015-06-01 12:10:00
 categories:
  - work
-tags: 
+tags:
 thumb: /thumbs/byb.jpg
 title: Backyard Brains finger muscles analysis app.
+lang: en
 ---
 
-Tim Marzullo, one of the [exceptional] brains behind [BackyardBrains](http://backyardbrains.com) asked me for some help. He was using five of theirs muscle spike interface, stacked together and conected to a single Arduino. With several electrodes stuck into his fore arm he was able to get the signals of the muscles that control each finger. Just using some very simple rules on the arduino and threshold values he was able to trigger an LED when any of the fingers moved. 
+Tim Marzullo, one of the [exceptional] brains behind [BackyardBrains](http://backyardbrains.com) asked me for some help. He was using five of theirs muscle spike interface, stacked together and conected to a single Arduino. With several electrodes stuck into his fore arm he was able to get the signals of the muscles that control each finger. Just using some very simple rules on the arduino and threshold values he was able to trigger an LED when any of the fingers moved.
 The problem here was that the he was setting the threshold by hand, actually by the very tedious method of looking at the serial output of the arduino in order to catch more or less where the threshold should be, hence by a lot of trial and error.
 The idea was to make a piece of software, that would run idealy on the Arduino (which didn't happen), that could guess these threshold values by itself just using a very simple and guided training. BackyardBrains has several pieces of sortware to be used in conjution with their neuroscience kits, all of these opensourced and available in their github account. Almost all of these were written on Processing. I decided to write my own using openFrameworks as I felt more comfortable in it and could be opensourced as well. It should be published any time soon.
 
@@ -29,6 +30,3 @@ The final idea was to use the BackyardBrains product called Hacker Hand. It is j
 I really enjoyed this project. I learned a lot and a lot of ideas came into my mind, to further develop the software as well as to connect muscular signals to other things.
 -Controling a synths AttackDecaySustainRelease controls with the spikes from the muscles, in order to somehow achieve more control over the sounds while playing.
 -Using a Leap Motion sensor to train the machine learning algorithm, so instead of just knowing if a finger is moved or not, the algorithm can know how much is being moved, and hopefully it will be able to predict this value just from the muscles signal.
-
-
-

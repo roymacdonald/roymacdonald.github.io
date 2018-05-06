@@ -10,6 +10,7 @@ video_height: 538
 thumb: /thumbs/LGLolla.jpg
 title: App LG Lollapalooza Chile 2013
 macrobio: true
+lang: en
 ---
 
 

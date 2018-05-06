@@ -10,6 +10,7 @@ video_height: 538
 thumb: /thumbs/cocacola.jpg
 title: Kinect Games Fábrica de la Felicidad CocaCola
 macrobio: true
+lang: en
 ---
 
 We were commisioned to develop a game/instalation using the Microsoft Kinect sensor.

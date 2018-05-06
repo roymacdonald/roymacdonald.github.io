@@ -10,5 +10,6 @@ video_height: 546
 thumb: /thumbs/rafflolla.jpg
 title: Live Visuals for DJ Raff Lollapalooza Chile 2011
 macrobio: true
+lang: en
 ---
 Developed and performed with [Macrobio](http://www.macrobio.cl) and [Oktopus](http://oktopus.tv/)

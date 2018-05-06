@@ -6,6 +6,7 @@ categories:
 tags: motion graphics
 thumb: /thumbs/motionGraphics.jpg
 title: Motion Graphics 2008-2010
+lang: en
 ---
 
 <iframe src="https://player.vimeo.com/video/19293269?byline=0&portrait=0" width="500" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

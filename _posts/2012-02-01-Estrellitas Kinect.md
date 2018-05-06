@@ -10,6 +10,7 @@ video_height: 538
 thumb: /thumbs/estrellitas.jpg
 title: Nestlé's Estrellitas Cereal Kinect Game
 macrobio: true
+lang: en
 ---
 
 We were commisioned to develop a game using the Microsoft Kinect sensor for an AD campaing of Nestlé's Estrellitas Cereal.

@@ -8,9 +8,10 @@ thumb: /thumbs/moduloFAV.jpg
 title: "Defective aparatus: It refuses to behave according to its original rules and insists on avoiding people. part 1"
 WIP: true
 FAIL: true
+lang: en
 ---
 
-I was invited to show something at the [Valparaiso Arts Festival (Festival de las Artes de Valparaiso, FAV)](http://festivalartesvalpo.cl/actividades/aparato-defectuoso/), happening on January 2015. 
+I was invited to show something at the [Valparaiso Arts Festival (Festival de las Artes de Valparaiso, FAV)](http://festivalartesvalpo.cl/actividades/aparato-defectuoso/), happening on January 2015.
 At that time I was working on the idea of the defective machine that can't do it's job yet keeps on working, thus it produces something useless- in the sense of it's original use-, so as consequence it has to fall into the art's scope.
 
 The laser ray, according to the hollywood-esque code, works simultaneously for delimiting space and an intruder detection system. In the case of this work, this laser ray looses its original use because it acquires a fobia towards people, driving it to avoid people constantly.

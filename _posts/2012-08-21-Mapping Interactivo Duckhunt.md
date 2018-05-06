@@ -10,6 +10,7 @@ video_height: 538
 thumb: /thumbs/duckhunt.jpg
 title: Duckhunt Interactive Mapping for Dentyne/Trident
 macrobio: true
+lang: en
 ---
 
 I developed this work while I was still working at Macrobio (I was one of the owners/partners, lead developer and project director). It was codeveloped with [DelightLab](http://delightlab.com/ "Delight Lab") for the  Dentyne/Trident brand.
@@ -31,4 +32,3 @@ Simultaneously there was a DSLR camera shooting photographs every time the shotg
 This event took place on August 21, 2012.
 
 There is a detailed technical explanation here.
- 

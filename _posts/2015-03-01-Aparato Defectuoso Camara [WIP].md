@@ -10,7 +10,5 @@ WIP: true
 galery_data: aparatodefectuoso0
 galery_name: Images
 poster_img: /img/AparatoDefectuoso0/CamServos.jpg
-
+lang: en
 ---
-
-

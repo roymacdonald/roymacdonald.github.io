@@ -6,6 +6,7 @@ categories:
 tags: rgbd rgbdtoolkit
 thumb: /thumbs/kinectRGBD.jpg
 title: Kinect + DSLR 3D printable mount
+lang: en
 ---
 
 This 3D printable piece is for putting together a DSLR camera and a Kinect and keep these aligned.

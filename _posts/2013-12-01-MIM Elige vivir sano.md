@@ -9,6 +9,7 @@ video_height: 538
 thumb: /thumbs/mim.jpg
 title: Interactive Modules Museo Interactivo Mirador
 macrobio: true
+lang: en
 ---
 
 We were commisioned to develop 2 interactive games for the "Elige vivir sano" (choose a healthy life)room at the Museo Interactivo Mirador, in Santiago de Chile.
@@ -18,6 +19,3 @@ The first station had two static bicicles in front of a large LCD monitor. A pie
 The next one was an arcade game inspired on the classic arcade game PacMan. The user must choose the best route for just eating healthy food while keeping itself hydrated.
 
 I developed this work while I was still working at Macrobio (I was one of the owners/partners, lead developer and project director).
-
-
-

@@ -6,6 +6,7 @@ categories:
 tags: interactive mapping
 thumb: /thumbs/mappingRancagua.jpg
 title: Interactive video mapping Mall Rancagua
+lang: en
 ---
 
 Three projectors were used to project over a conical column inside a mall in Rancagua, Chile.
