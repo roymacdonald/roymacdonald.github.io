@@ -21,6 +21,6 @@ Cada obra reinterpretada o "re programada" se muestra en dos pantallas lado a la
 
 Cada "re programación" es presentada por cerca de 40 segundos y luego pasa a la siguiente. Cuando una nueva "re programación" es presentada el código es animado, junto con algunos efectos sonoros, como si este estuviese siendo escrito. Cuando esta animación termina aparece la obra visual.
 
-Este proyecto fue programado por completo utilizando openFrameworks. Éste es bastante complejo aun cuando no pareciera serlo, ya que este debe juntar muchas piezas diferentes, hacer que funcione fluidamente y tener muchos colaboradores simultáneos.
+Este proyecto fue programado por completo utilizando openFrameworks. Éste es bastante complejo aun cuando no pareciera serlo, ya que éste debe juntar muchas piezas diferentes, hacer que todo funcione fluidamente y tener muchos colaboradores simultáneos.
 
 Para mayor información visita el sitio de este proyecto (en inglés) [sfpc.io/recoded](http://sfpc.io/recoded/).
