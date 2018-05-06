@@ -4,15 +4,21 @@
 		{% if page.selection == 'home' %}
 		<div>
 		{% else %}
-		<div id="iam" style=" overflow-y: hidden; height:0px;">		
+		<div id="iam" style=" overflow-y: hidden; height:0px;">
 		{% endif %}
-			
+				{% if page.lang == 'en' %}
 				<div class="iam-line TXT-blanco HL-rosado">I am Roy Macdonald.</div>
 				<div class="iam-line TXT-blanco HL-rosado">This is my portfolio/site.</div>
-				<div class="iam-line TXT-blanco HL-rosado">I make things with computers, electronics, code, images, sound, video, cameras and whatever else.</div>
-				<div class="iam-line TXT-blanco HL-rosado">I like to thoroughly understand things, how these work and try to make something with this understanding.</div>
+				<div class="iam-line TXT-blanco HL-rosado">I make art and other things with computers, electronics, code, images, sound, video, cameras and whatever else.</div>
+				<div class="iam-line TXT-blanco HL-rosado">I like to thoroughly understand things, how these work and try to make something with this knowledge.</div>
 				<div class="iam-line TXT-blanco HL-rosado">I am a director, producer, artist, coder, <span style="text-decoration:line-through">physicist</span> and hacker.</div>
-			
+				{% else %}
+				<div class="iam-line TXT-blanco HL-rosado">Mi nombre es Roy Macdonald.</div>
+				<div class="iam-line TXT-blanco HL-rosado">Este es mi sitio/portafolio.</div>
+				<div class="iam-line TXT-blanco HL-rosado">Hago arte y otras cosas con computadores, electrónica, código, imágenes, sonido, video, camaras and lo que sea.</div>
+				<div class="iam-line TXT-blanco HL-rosado">Me gusta entender las cosas a fondo, como éstas funcionan e intetar hacer algo con este conocimiento.</div>
+				<div class="iam-line TXT-blanco HL-rosado">Soy director, productor, artista, programador, <span style="text-decoration:line-through">físico</span> y hacker.</div>
+				{% endif %}
 		</div>
 		{% include headermenu.html %}
 	</div>
