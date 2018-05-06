@@ -12,9 +12,9 @@ macrobio: true
 lang: en
 ---
 
-We were commisioned to develop 2 interactive games for the "Elige vivir sano" (choose a healthy life)room at the Museo Interactivo Mirador, in Santiago de Chile.
+We were commissioned to develop 2 interactive games for the "Elige vivir sano" (choose a healthy life)room at the Museo Interactivo Mirador, in Santiago de Chile.
 
-The first station had two static bicicles in front of a large LCD monitor. A piece of food is presented and the users must begin pedaling in order to burn the equivalent presented food's energy.  
+The first station had two static bicycles in front of a large LCD monitor. A piece of food is presented and the users must begin pedaling in order to burn the equivalent presented food's energy.  
 
 The next one was an arcade game inspired on the classic arcade game PacMan. The user must choose the best route for just eating healthy food while keeping itself hydrated.
 
