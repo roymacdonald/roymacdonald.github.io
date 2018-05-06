@@ -5,12 +5,15 @@ layout: default
 {{ content }}
       <div class='posts fl'>
             {% for post in site.posts %}
+              {% if post.lang != 'en' %}
+              {% continue %}
+              {% endif %}
             	{% assign found = false %}
             	{% assign isNotBlog = true %}
                 {% if post.show_in_home != false %}
             	{% for cat in post.categories %}
             	    	{% if cat == 'blog'  %}
-            	            {% assign isNotBlog = false %}            	    	
+            	            {% assign isNotBlog = false %}
             	    	{% endif %}
             	{% endfor %}
             	{% if isNotBlog  %}
