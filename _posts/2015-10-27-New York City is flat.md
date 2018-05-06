@@ -12,7 +12,7 @@ title: New York City is flat... almost
 lang: en
 ---
 
-This is a visualization of the streets of New York City, which moves through these following the route I made everyday from the [School For Poetic Computation](http://sfpc.io) in Manhattan's East Village to Brooklyn's Crown Heights where I lived, making an emphasis on the elevation of the streets.
+This is a visualization of the streets of New York City, which moves through these following the bicycle route I made everyday from the [School For Poetic Computation](http://sfpc.io) in Manhattan's East Village to Brooklyn's Crown Heights where I lived, making an emphasis on the elevation of the streets.
 
 All the street data was mined and scraped out from G's Street View, which was then fed to a custom application made with [openFrameworks](http://openframeworks.cc). The user can rotate the point of view by dragging the mouse and also alter some parameters, out of which the most relevant was the elevation multiplication factor. This piece was presented an the School For Poetic Computation Fall 2015 final showcase, where an Oculus Rift was used instead of the regular screen.
 
