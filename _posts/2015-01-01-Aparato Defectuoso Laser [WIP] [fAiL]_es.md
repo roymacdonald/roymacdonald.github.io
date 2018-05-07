@@ -8,7 +8,7 @@ thumb: /thumbs/moduloFAV.jpg
 title: "Aparato defectuoso: Se rehusa a commportarse según sus normas originales e insiste en evitar a las personas. parte 1"
 WIP: true
 FAIL: true
-lang: en
+lang: es
 ---
 
 Fui invitado a mostrar algo en el [Festival de las Artes de Valparaiso, FAV](http://festivalartesvalpo.cl/actividades/aparato-defectuoso/), que ocurrió en Enero de 2015.
