@@ -5,7 +5,7 @@ categories:
  - projects
 tags: interactive
 thumb: /thumbs/moduloFAV.jpg
-title: "Aparato defectuoso: Se rehusa a commportarse según sus normas originales e insiste en evitar a las personas. parte 1"
+title: "Aparato defectuoso: Se rehúsa a comportarse según sus normas originales e insiste en evitar a las personas. parte 1"
 WIP: true
 FAIL: true
 lang: es
@@ -16,10 +16,8 @@ En ese entonces me encontraba trabajando en la idea de una máquina defectuosa q
 
 El rayo láser, según el código hollywoondense, funciona simutáneamente como delimitador de espacios y sistema de detección de intrusos. En el caso de este trabajo el rayo láser pierde su uso original ya que adquiere una fobia hacia las personas, evitandolas constantemente.
 
-Cada vez que alguien o algo bloquea el rayo el sistema reconfigura sus espejos para que el rayo evite la ruta bloqueada, generando una nueva delimitación espacial.
-
 Esta instalación consistia en 16 módulos, cada uno con un espejo y dos motores servo. El espejo puede apuntar en cualquier dirección dentro de una semi esfera.
-Éstos fueron instalados en una intersección de dos calles en Valparaiso, ubicando 4 módulos en cada una de las cuatro esquinas en postes del alumbrado público. Un láser verde apuntaba a uno de estos espejos y rebotaba hacia otro espejo, luego al siguiente y así sucesivamente hasta rebotar en todos los espejos. Dado que los espejos podían apuntar en cualquier dirección, la ruta de rebotes podía ser modificada; cada vez que el rayo es bloqueado una nueva ruta de rebotes es creada.
+Éstos fueron instalados en una intersección de dos calles en Valparaiso, ubicando 4 módulos en cada una de las cuatro esquinas en postes del alumbrado público. Un láser verde apuntaba a uno de estos espejos y rebotaba hacia otro espejo, luego al siguiente y así sucesivamente hasta rebotar en todos los espejos. Dado que los espejos podían apuntar en cualquier dirección, la ruta de rebotes podía ser modificada; cada vez que alguien o algo bloquea el rayo el sistema reconfigura sus espejos para que el rayo evite la ruta bloqueada, generando una nueva delimitación espacial.
 
 Hasta este punto todo suena muy bien pero desafortunadamente esta instalación fue un fracaso. Tuve muy poco tiempo para construir y programar estoy y un presupuesto bastante escaso.
 
