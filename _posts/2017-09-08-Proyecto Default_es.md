@@ -15,7 +15,9 @@ lang: es
 Participé del proyecto Default haciendo el diseño y programación de la visualización, así como asesorar en temas de interactividad.
 
 
-Sitio proyecto (xdefault.cl)[xdefault.cl]
+Sitio proyecto [xdefault.cl](xdefault.cl)
+
+
 Default es una obra interactiva e inmersiva sobre la actividad cerebral en reposo. Fue el resultado de un proyecto de diálogo interdisciplinario entre Manuela Garretón, Diseñadora y Tomás Ossandón, Neurocientífico. Anteriormente se asumía que la actividad basal del cerebro —aquella que precede al estímulo— no tenía importancia. Sin embargo, la evidencia muestra algo sorprendentemente diferente: el cerebro utiliza gran cantidad de energía cuando no responde a estímulos y tales momentos son los que ocupan la mayor parte de nuestras vidas.
 
 Este dinamismo espontáneo depende de la Red Neuronal por Defecto (Default Mode Network-DMN). Se trata de una trama que siempre está activa, a excepción de los períodos dirigidos a realizar tareas o responder a estímulos externos. En dichos momentos se desconecta transitoriamente. Esta red integra memorias de nuestras vidas por lo tanto, podría explicar muchas dudas sobre la autoconciencia y procesos tan importantes como la creatividad.
