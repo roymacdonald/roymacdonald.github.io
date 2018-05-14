@@ -41,6 +41,6 @@ Equipo:
 Obra realizada con el aporte de la dirección de Artes y Cultura, Vicerrectoría de Investigación de la Pontificia Universidad Católica de Chile.
 
 
-##Proceso 
+## Proceso 
 
 <iframe src="https://player.vimeo.com/video/248526680?title=0&byline=0&portrait=0" width="600" height="338"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
