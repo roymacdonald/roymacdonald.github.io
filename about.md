@@ -19,6 +19,10 @@ On fall 2015 he assisted to the [School For Poetic Computation](http://sfpc.io) 
 
 During March and April 2016 he was teaching creative coding at [OF COURSE](http://http://ofcourse.io/) in Shanghai, China.
 
+During the summer of 2018 he was part of the first Computational Arts Residency  setup by the Department of Computing at Goldsmiths, University of London and the Victoria and Albert Museum Digital Programmes. The results of this residency was shown at the Digital Design Weekend exhibition in the Victoria and Albert Museum in London.
+
+On September 2018 his work was shown at Ars Electronica Festival in Linz,Austria.
+
 Currently he is residing in Santiago, Chile.
 
 Drop me a line: macdonald.roy (at) (the electronic mail from the big G).
