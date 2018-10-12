@@ -13,7 +13,7 @@ His artistic and creative curiosity alongside with his inborn aptitudes for math
 
 He is an active contributor to the artistic oriented coding toolkit [openFrameworks](http://openframeworks.cc).
 
-On 2010 he created his own new-media design studio, called Macrobio, in Santiago, Chile. Here, he and his team work mixing code with motion graphics and video, to create interactive installations and experiences. On early 2014, Macrobio was split up due to different business points of view. From there on, Roy has continued to work on the same subject and kind of projects but under his own name.
+On 2010 he created his own new-media design studio, called Macrobio, in Santiago, Chile. Here, he and his team work mixing code with motion graphics and video, to create interactive installations and experiences. On early 2014, Macrobio was split up due to different business points of view. Then he refocused his practice from strictly commercial to more artistic oriented and personal work. As such he has just shown his work in just a few collective exhibitions.
 
 On fall 2015 he assisted to the [School For Poetic Computation](http://sfpc.io) in New York City.
 
