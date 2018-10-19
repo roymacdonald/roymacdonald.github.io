@@ -21,8 +21,10 @@ layout: default
             		    {% assign found = true %}
             	    {% else %}
             		    {% for cat in post.categories %}
-              			    {% if cat == page.selection && cat != 'blog'  %}
-            				    {% assign found = true %}
+              			    {% if cat == page.selection %}
+                                {% if cat != 'blog'  %}
+            				        {% assign found = true %}
+                                {% endif %}
             			    {% endif %}
             		    {% endfor %}
             	    {% endif %}

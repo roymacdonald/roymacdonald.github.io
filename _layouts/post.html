@@ -2,13 +2,13 @@
 layout: default
 ---
 {% include post_video.html %}
-<div class="post">
+<div class="post"> 
   <article class="post-content">
   	<h1>{{ page.title }}</h1>
   	{% if page.subtitle != nil %}
   	<h3>{{ page.subtitle }}</h3>
   	{% endif %}
-	{% if page.WIP != nil || page.FAIL != nil%}
+	{% if page.WIP != nil or page.FAIL != nil%}
 		<div class="wip_or_fail">
 		{% if page.WIP != nil %}
   			{% if page.WIP == true %}
