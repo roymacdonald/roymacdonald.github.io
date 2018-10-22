@@ -1,7 +1,8 @@
-name: royMacdonald
+name: Roy J. Macdonald
+title: Roy J. Macdonald
 markdown: kramdown
 highlighter: rouge
-
+github_username:  roymacdonald
 # Prose settings
 prose:
   rooturl: '_posts'
