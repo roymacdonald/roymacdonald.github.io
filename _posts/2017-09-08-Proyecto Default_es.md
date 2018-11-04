@@ -4,7 +4,7 @@ date: 2017-09-08 12:10:00
 categories:
  - projects
 tags: xdefault, data visualization, interactive
-thumb: /thumbs/proyectodefault.jpg
+thumb: /thumbs/proyectodefault.png
 video_vimeo: 238460122
 video_width: 958
 video_height: 539
@@ -31,8 +31,9 @@ El propósito de Default fue cautivar a la audiencia desde el goce estético y q
 Equipo:
 * Manuela Garretón: Dirección e investigación
 * Tomás Ossandón: co-investigador
+* Roy Macdonald: Diseño y programación de visualizacion
 * Pablo Garretón: Diseño sonoro
-* Karina Hyland: Diseño y programación de visualización
+* Karina Hyland: Investigador Asistente (Diseño)
 * Esteban Sandoval: Programación interacción
 * Benjamín Benavides: Programación interacción
 
@@ -41,6 +42,6 @@ Equipo:
 Obra realizada con el aporte de la dirección de Artes y Cultura, Vicerrectoría de Investigación de la Pontificia Universidad Católica de Chile.
 
 
-## Proceso 
+## Proceso
 
 <iframe src="https://player.vimeo.com/video/248526680?title=0&byline=0&portrait=0" width="600" height="338"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
