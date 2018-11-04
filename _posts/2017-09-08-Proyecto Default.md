@@ -29,13 +29,13 @@ Default is conceived as a visual and sounding environment made from the data gat
 Default's purpose was to captivate the audience through aesthetic enjoyment while at the same time would awake curiosity about the deeper states of the mind.
 
 Team:
-* Manuela Garretón: Principal investigator
-* Tomás Ossandón: Principal co-investigador
-* Roy Macdonald: Visualization design and coding
-* Pablo Garretón: Sound design
-* Karina Hyland: Design research assistant
-* Esteban Sandoval: Interaction coding and implementation
-* Benjamín Benavides: Interaction coding and implementation
+* **Manuela Garretón**: Principal investigator
+* **Tomás Ossandón**: Principal co-investigador
+* **Roy Macdonald**: Visualization design and coding
+* **Pablo Garretón**: Sound design
+* **Karina Hyland**: Design research assistant
+* **Esteban Sandoval**: Interaction coding and implementation
+* **Benjamín Benavides**: Interaction coding and implementation
 
 
 This project was made with the support of Dirección de Artes y Cultura, Vicerrectoría de Investigación de la Pontificia Universidad Católica de Chile.

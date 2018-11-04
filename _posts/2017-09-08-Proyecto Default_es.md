@@ -29,13 +29,13 @@ Default se plantea como un ambiente visual y sonoro a partir de datos registrado
 El propósito de Default fue cautivar a la audiencia desde el goce estético y que a la vez despierte la curiosidad sobre los estados más internos de la mente.
 
 Equipo:
-* Manuela Garretón: Dirección e investigación
-* Tomás Ossandón: co-investigador
-* Roy Macdonald: Diseño y programación de visualizacion
-* Pablo Garretón: Diseño sonoro
-* Karina Hyland: Investigador Asistente (Diseño)
-* Esteban Sandoval: Programación interacción
-* Benjamín Benavides: Programación interacción
+* **Manuela Garretón**: Dirección e investigación
+* **Tomás Ossandón**: co-investigador
+* **Roy Macdonald**: Diseño y programación de visualizacion
+* **Pablo Garretón**: Diseño sonoro
+* **Karina Hyland**: Investigador Asistente (Diseño)
+* **Esteban Sandoval**: Programación interacción
+* **Benjamín Benavides**: Programación interacción
 
 
 
