@@ -6,6 +6,8 @@ published: true
 video_vimeo: 312154006
 categories:
  - projects
+video_width: 958
+video_height: 539
 tags: laser, drone music, ambient, light art, light sculpture
 thumb: /thumbs/vimeo_thumbs/312154006.jpg
 subtitle:
