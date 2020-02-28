@@ -21,15 +21,15 @@ Some of these recordings:
 
 This is my band. I produced, recorded, mixed and played guitar
 
-<iframe style="border: 0; width: 600px; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2628341229/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/tracklist=false/transparent=true/" seamless><a href="http://uvarobot.cl/album/gol-o-penal">Gol o Penal by VariosArtistas</a></iframe>
+<iframe style="border: 0; width: 600px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2628341229/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/tracklist=false/transparent=true/" seamless><a href="http://uvarobot.cl/album/gol-o-penal">Gol o Penal by VariosArtistas</a></iframe>
 
-<iframe style="border: 0; width: 600px; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=1725314539/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://uvarobot.cl/album/abandonan-europa">Abandonan Europa by VariosArtistas</a></iframe>
+<iframe style="border: 0; width: 600px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1725314539/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://uvarobot.cl/album/abandonan-europa">Abandonan Europa by VariosArtistas</a></iframe>
 
 
 ## [Tus Amigos Nuevos](http://www.tusamigosnuevos.com)
 I produced, recorded, mixed and mastered this album.
 
-<iframe style="border: 0; width: 600px; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3402165205/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://uvarobot.cl/album/no-s-son">NO SÍ SON by Tus Amigos Nuevos</a></iframe>
+<iframe style="border: 0; width: 600px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3402165205/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://uvarobot.cl/album/no-s-son">NO SÍ SON by Tus Amigos Nuevos</a></iframe>
 
 
 

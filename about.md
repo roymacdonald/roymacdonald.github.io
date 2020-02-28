@@ -19,7 +19,7 @@ On fall 2015 he assisted to the [School For Poetic Computation](http://sfpc.io) 
 
 During March and April 2016 he was teaching creative coding at [OF COURSE](http://http://ofcourse.io/) in Shanghai, China.
 
-Since 2018 Roy has been collaborating with the Santiago-based light-art collective [Trimex Collective](https://www.instagram.com/trimexcrew/).
+Since 2018 Roy has been collaborating with the Santiago-based light-art collective [Trimex Collective](https://www.trimex.cl).
 
 During the summer of 2018 he was part of the first Computational Arts Residency  setup by the Department of Computing at Goldsmiths, University of London and the Victoria and Albert Museum Digital Programmes. The results of this residency was shown at the Digital Design Weekend exhibition in the Victoria and Albert Museum in London.
 
