@@ -2,7 +2,7 @@ let outputImage;
 
 const imgSize = 512; //our image will be 512x512 pixels, which is what StyleGAN requires
 const sliderTop = 512;
-const sliderHeight = 500;
+const sliderHeight = 200;
 const sliderBottom = sliderTop + sliderHeight;
 
 let count = 0;
@@ -157,7 +157,7 @@ function generateImage() {
       //  console.log(outputs);
       outputImage.attribute("src", outputs.image);
       bWaiting = false;
-      console.log("got image");
+//      console.log("got image");
       //imageReady();
       // use the outputs in your project
     })
@@ -176,19 +176,33 @@ function draw() {
   
   background(255);
   image(outputImage, 0, 0, 512, 512);
-  let prevY;
-
+    
+    let bMouseOverSliders = mouseY < sliderBottom && mouseY >= sliderTop && mouseX >=0 && mouseX < imgSize*sliderWidth;
   for (let i = 0; i < imgSize; i++) {
-    //loop through all pixels, and select the corresponding value for the vector with the randomness generated from our Noise Loop function
+      
+      noStroke();
+      fill(240);
+    rect(i * sliderWidth, sliderTop, sliderWidth, sliderHeight);
+      
+      
     let y = map(a[i], 1, -1, sliderTop, sliderBottom);
+    if((bMouseOverSliders && mouseX >=i*sliderWidth && mouseX < (i + 1)*sliderWidth ) || (i == aIndex))
+    {
+        stroke(70);   
+    }
+    else
+    {
+        noStroke();
+    }
+      
     if (i == aIndex) {
-      stroke(70);
       fill(255, 255, 0);
     } else {
-      noStroke();
       fill(200);
     }
     rect(i * sliderWidth, y, sliderWidth, sliderBottom - y);
+    
+      
   }
 
   noStroke();
@@ -196,6 +210,9 @@ function draw() {
 
   let txt = "Waiting for response: " + ((bWaiting===true)?"YES":"NO");
   txt += "\nServer state: " + serverState;
+    
+//    txt+= "\nMouseY: " + mouseY;
+    
 //   let txt = "count: " + count;
 //   txt += "\naIndex: " + aIndex;
 //   txt += "\na[aIndex]: " + a[aIndex];
