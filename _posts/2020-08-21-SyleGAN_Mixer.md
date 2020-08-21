@@ -6,7 +6,7 @@ published: true
 categories:
  - projects
 tags: RunwayML, Residency, Artist-In-Residence, StyleGAN, GAN, AI, Machine Larning
-thumb: /thumbs/GAN.jpg
+thumb: /thumbs/StyleGANMixer.jpg
 lang: en
 ---
 
