@@ -2,7 +2,7 @@
 date: 2020-08-19 00:00:00 -0400
 layout: post
 title: How NOT to train your GAN
-published: false
+published: true
 categories:
  - projects
 tags: RunwayML, Residency, Artist-In-Residence, StyleGAN, GAN, AI, Machine Larning
