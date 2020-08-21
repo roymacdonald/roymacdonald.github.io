@@ -24,6 +24,9 @@ let serverState = "";
 let a = new Array(512);
 a.fill(0.0, 0);
 
+
+let randomButton, zeroButton, minButton, maxButton, perlinButton;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
@@ -35,6 +38,43 @@ function setup() {
   outputImage.hide();
 
   sliderWidth = windowWidth / float(imgSize);
+
+
+  let x = 600;
+
+  let y = 120;
+  let margin = 20;
+
+  randomButton  = createButton('Random');
+  randomButton.position( x, y);
+  randomButton.mousePressed(randomButtonPressed);
+  
+  y += randomButton.height + margin;
+
+  zeroButton  = createButton('Zero');
+  zeroButton.position( x, y);
+  zeroButton.mousePressed(zeroButtonPressed);
+  y += zeroButton.height + margin;
+  
+  minButton  = createButton('Min');
+  minButton.position( x, y);
+  minButton.mousePressed(minButtonPressed);
+  y += minButton.height + margin;
+  
+  maxButton  = createButton('Max');
+  maxButton.position( x, y);
+  maxButton.mousePressed(maxButtonPressed);
+  y += maxButton.height + margin;
+  
+  perlinButton  = createButton('Perlin Noise');
+  perlinButton.position( x, y);
+  perlinButton.mousePressed(perlinButtonPressed);
+
+  noiseDetail(5, 0.35);
+
+
+
+
 }
 
 function windowResized() {
@@ -210,7 +250,7 @@ function draw() {
 
   let txt = "Waiting for response: " + ((bWaiting===true)?"YES":"NO");
   txt += "\nServer state: " + serverState;
-    
+  txt += "\n\n Use the following buttons to set/reset the sliders into some default values.";
 //    txt+= "\nMouseY: " + mouseY;
     
 //   let txt = "count: " + count;
@@ -221,15 +261,53 @@ function draw() {
 //   txt += "\nprevSliderIndex: " + prevSliderIndex;
 
   text(txt, 600, 40);
+
+
+
 }
 
-// function keyPressed() {
-//  getServerState();
-// }
-//function imageReady() { //saves the image
-//
-//
-//  count++;
-////  generateImage();
-//}
-//
+
+function randomButtonPressed()
+{
+  for (let i = 0; i < imgSize; i++) {
+    a[i] = random(-1, 1);
+  }
+   generateImage();
+}
+function zeroButtonPressed()
+{
+  a.fill(0.0, 0);
+  generateImage();
+}
+function minButtonPressed()
+{
+  a.fill(-1.0, 0);
+  generateImage();
+
+}
+function maxButtonPressed()
+{
+  a.fill(1.0, 0);
+  generateImage();
+
+}
+function perlinButtonPressed()
+{
+  let inc = 0.09;
+  for (let i = 0; i < imgSize; i++) {
+    a[i] = 2 * noise(inc * i) - 1;
+  }
+  generateImage();
+}
+
+
+
+
+
+
+
+
+
+
+
+
