@@ -25,6 +25,8 @@ During the summer of 2018 he was part of the first Computational Arts Residency 
 
 On September 2018 his work was shown at Ars Electronica Festival in Linz,Austria.
 
+From August 2019 to late February 2020, was a "Someting in Residence" at [RunwayML](https://runwayml.com/) doing some experiments with Machine Learning.
+
 Currently he is residing in Santiago, Chile.
 
 Drop me a line: macdonald.roy (at) (the electronic mail from the big G).
