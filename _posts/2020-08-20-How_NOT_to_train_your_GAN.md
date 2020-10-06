@@ -21,8 +21,9 @@ Among other things I did a 3 experiments with the by-then unreleased [GAN](https
 Just after I left Chile and before starting my residency at RunwayML a [huge Chile social revolt begun](https://en.wikipedia.org/wiki/2019%E2%80%9320_Chilean_protests) (still ongoing, currently on standby because of COVID-19). This kept me quite distracted from the residency at RunwayML. I wanted to explore RunwayML’s tools to produce a socially aware, critical and timely project but could not figure it out. Yet, as I wanted to train a GAN I needed images; the images of Chile’s President Sebastián Piñera were constantly appearing while drifting though the internet and social media. So I decided as an act of protest to train a GAN on him, but in the wrong way. 
 
 In order to get “good” results from any kind of ML process you need to teach it “correctly”. StyleGAN, the particular GAN that RunwayML allows you to train, it is not different.
-If you want to train it on faces, in order to get “good” and photo-realistic results you need to use images of faces that are as similar as possible; same pose, similar illumination, have all the faces aligned so the features are in the same coordinates, etc. The least amount of unwanted variation is best. 
-This is how you should do it to get a “good” result. Now how to get a “bad” result that it is still good in some other twisted (artistic?) sense? Easy, train it wrongly but not too much.
+Thus, if you want to train it on faces, to get “good” and photo-realistic results you need to use images of faces that are as similar as possible; same pose, similar illumination, have all the faces aligned so the features are in the same coordinates, etc. The least amount of unwanted variation is best. 
+
+But now how to get a “bad” result that it is still good in some other twisted (artistic?) sense? Easy, train it wrongly but not too much.
 
 **Step 1. Getting images.**
 
