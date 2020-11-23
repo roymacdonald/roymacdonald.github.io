@@ -16,16 +16,17 @@ He is an active contributor to the artistic oriented coding toolkit [openFramewo
 On 2010 he created his own new-media design studio, called Macrobio, in Santiago, Chile. Here, he and his team work mixing code with motion graphics and video, to create interactive installations and experiences. On early 2014, Macrobio was split up due to different business points of view. Then he refocused his practice from strictly commercial to more artistic oriented and personal work. As such he has just shown his work in just a few collective exhibitions.
 
 On fall 2015 he assisted to the [School For Poetic Computation](http://sfpc.io) in New York City.
+He was one of the main developers and artists contributing to [SFPC's Re-coded](https://roymacdonald.github.io//projects/2017/11/15/SFPCs-Recoded-Project.html) collaborative and collective project, which has been shown at Dayfornight festival 2015, Houston, Texas, Google I/O 2016 in Mountain View, California, Sonar Festival 2017, Barcelona, Spain, MicrosoftConnect 2017 and SFPC's 7 years anniversary exhibition (2020) both in New York City.
 
 During March and April 2016 he was teaching creative coding at [OF COURSE](http://http://ofcourse.io/) in Shanghai, China.
 
-Since 2018 Roy has been collaborating with the Santiago-based light-art collective [Trimex Collective](https://www.trimex.cl).
+Since 2018 Roy has [been](https://roymacdonald.github.io//projects/2018/04/09/Luminus_Prospectus_Mavi.html) [collaborating](https://roymacdonald.github.io//projects/2018/12/19/Invocacion.html) with the Santiago-based light-art collective [Trimex Collective](https://www.trimex.cl).
 
 During the summer of 2018 he was part of the first Computational Arts Residency  setup by the Department of Computing at Goldsmiths, University of London and the Victoria and Albert Museum Digital Programmes. The results of this residency was shown at the Digital Design Weekend exhibition in the Victoria and Albert Museum in London.
 
-On September 2018 his work was shown at Ars Electronica Festival in Linz,Austria.
+On September 2018 [his work](https://roymacdonald.github.io//projects/2018/09/01/Defective-Apparatus_v1.2.html) was shown at Ars Electronica Festival in Linz,Austria.
 
-From August 2019 to late February 2020, was a "Someting in Residence" at [RunwayML](https://runwayml.com/) doing some experiments with Machine Learning.
+From August 2019 to late February 2020, was a "Someting in Residence" at [RunwayML](https://runwayml.com/) doing [some](https://roymacdonald.github.io//projects/2020/08/21/SyleGAN_Mixer.html) [experiments](https://roymacdonald.github.io//projects/2020/08/19/How_NOT_to_train_your_GAN.html) with Machine Learning.
 
 Currently he is residing in Santiago, Chile.
 
