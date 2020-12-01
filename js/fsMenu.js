@@ -1,14 +1,25 @@
 function enableFutureSketchesMenu()
 {
-	    let menu = document.getElementById("futureSketchesMenu");
-        if(menu)
+	    let fsMenu = document.getElementById("futureSketchesMenu");
+        if(fsMenu)
         {
-        	menu.style = "";
+        	fsMenu.style = "";
+            fsMenu.classList.add("current")
         }
         localStorage.showFutureSketches =  true;	
-}
+        let nav = document.querySelector(".main-nav");
+        if(nav){
+            let current = nav.querySelector(".current");
+            if(current != fsMenu)
+            {
+                current.classList.remove("current");
+            }
+        }
+        
 
-window.onload = function() {
+}
+document.addEventListener("DOMContentLoaded", function(event) {
+
 	if(window.location.pathname == "/future_sketches/")
 	{
 		
@@ -22,4 +33,4 @@ window.onload = function() {
 	}
 
 
-}
+});
