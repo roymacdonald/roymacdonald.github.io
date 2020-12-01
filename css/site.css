@@ -49,7 +49,7 @@ textarea {
   font:18px/1.67 Lato, Helvetica, Arial, sans-serif;
    /*font:18px/1.67 Merriweather, serif;*/
    font-weight: 300;
-  -webkit-font-smoothing:antialiased;
+  /*-webkit-font-smoothing:antialiased;*/
   }
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
