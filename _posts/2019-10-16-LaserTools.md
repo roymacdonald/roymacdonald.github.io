@@ -4,7 +4,7 @@ layout: post
 title: Laser Tools
 published: true
 categories:
- - projects
+ - code
 tags: Laser, ILDA, Activism
 thumb: /thumbs/lasertools.jpg
 poster_img: /img/lasertools/resistencia.jpg
