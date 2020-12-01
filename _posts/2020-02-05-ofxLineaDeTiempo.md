@@ -1,5 +1,5 @@
 ---
-date: 2020-11-30 00:00:00 -0400
+date: 2020-02-05 00:00:00 -0400
 layout: post
 title: ofxLineaDeTiempo
 subtitle: A new timeline addon for openFrameworks.
@@ -13,12 +13,12 @@ lang: en
 
 # [ofxLineaDeTiempo](https://github.com/roymacdonald/ofxLineaDeTiempo)
 
-A new timeline addon for openFrameworks.
+A new timeline addon for [openFrameworks](https://openframeworks.cc/).
 
 ## Introduction
 
 
-[ofxTimeline](https://github.com/YCAMInterlab/ofxTimeline) , created by [James George](https://github.com/obviousjim/),  has long been the go-to timeline tool for [openFramworks](https://openframeworks.cc/). It has been modified and tailored numerous times over the years for specific things but current versions are not as accessible as they could be to the beginner user. ofxLineaDeTiempo comes into play in order to fulfill this need, making it easy to anyone to easily utilize a functional timeline with both basic and advanced features. The key is that it requires minimal coding and is deeply connected with ofxGui.
+[ofxTimeline](https://github.com/YCAMInterlab/ofxTimeline) , created by [James George](https://github.com/obviousjim/),  has long been the go-to timeline tool for [openFramworks](https://openframeworks.cc/). It has been modified and tailored numerous times over the years for specific things but current versions are not as accessible as they could be to the beginner user. ofxLineaDeTiempo comes into play in order to fulfill this need, making it easy to anyone to easily utilize a functional timeline with both basic and advanced features. The key is that it requires minimal coding and is deeply connected with `ofParameter` and `ofEvent`.
 
 As I could not use ofxTimeline as the name of this addon, ofxTimeline2 sounded boring, and considering that I am a native Spanish speaker it made sense to use a Spanish word instead. **Línea De Tiempo** is the literal translation of **Timeline** into Spanish, hence **ofxLineaDeTiempo**
 
@@ -44,8 +44,8 @@ This addon was build ontop of Christopher Baker's ( @bakercp ) excenent adons [o
 This addon was kickstarted while I was a Resident and Contributor at [COSA](https://www.du.edu/ahss/opensourcearts/) at University of Denver on the winter of 2020. Many thanks to Christopher Coleman @digitalcoleman, director of COSA, who was kind enough to make it happen. :D
 
 
-## Code
-Available [here](https://github.com/roymacdonald/ofxLineaDeTiempo)
+## Code and documentation
+[https://github.com/roymacdonald/ofxLineaDeTiempo](https://github.com/roymacdonald/ofxLineaDeTiempo)
 
 
 
