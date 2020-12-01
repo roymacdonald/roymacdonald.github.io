@@ -29,8 +29,9 @@ $(document).ready(function(){
 	//setLang(sessvars.lang);
 
 $('.post-content img').each(function( index ) {
-$( this ).wrap("<a class=\"post-img\" href=\"" + $( this ).attr("src")+ "\" data-lightbox=\"img-set\" data-title=\""+ $( this ).attr("alt") +"\"></a>");});
-
+$( this ).wrap("<a class=\"post-img\" href=\"" + $( this ).attr("src")+ "\" data-lightbox=\"img-set\" data-title=\""+ $( this ).attr("alt") +"\"></a>");
+});
+});
 //---------------------------------------------------------------
 function updateDropdownMenu(L){
 		$('a.langOpt').each(function(i, el) {
