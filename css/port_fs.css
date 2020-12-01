@@ -1,0 +1,33 @@
+html,
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    height: 100%;
+    background: #101010;
+    color: #fafafa;
+}
+
+.post_fs{
+  	
+	max-width: 400px;
+	margin:auto;
+	display: inline-block;
+}
+.post_port_fs_content{
+
+}
+.titulo_post_port{
+
+}
+.port_footer{
+height: 100px;
+}
+.header_port_dma{
+margin-left: 20px;
+margin-top: 36px;
+margin-bottom: 15px;
+}
+.video_header_port{
+width:600px;
+height:375px;
+min-height:375px;
+}
