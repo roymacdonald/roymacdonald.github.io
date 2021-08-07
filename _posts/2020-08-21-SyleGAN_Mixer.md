@@ -62,6 +62,17 @@ The image will be updated to reflect these changes.
 <iframe class="inlinevideo-iframe" src="{{site.url | append: '/styleGAN_Mixer.html'}}" frameborder="0" scrolling="no"></iframe>
 </div>
 
+If you liked this experiment/interface please consider donating as you using it costs money, which comes out of my pocket.
+If it does not work it is because my RunwayML account has run out of credits.
+Feel free to contact me if you donated and want me to add that as credits for it to work.
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="VRL2TDAMYZYKE" />
+<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CL/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
 
 ## Conclusion
