@@ -8,7 +8,7 @@ thumb: /thumbs/laserkuze.jpg
 video_vimeo: 252066601
 video_width: 958
 video_height: 539
-title: ROTONDA LASER
+title: Los que suben, los que bajan y los que miran desde arriba
 subtitle: Traffic activity driven generative laser projection.
 lang: en
 ---
