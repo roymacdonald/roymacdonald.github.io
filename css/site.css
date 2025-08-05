@@ -371,6 +371,10 @@ table {
   font-weight: bold;
 }
 
+.videoborder{
+  border: gray;
+  border-style: solid;
+}
 
 /* Layout
 ------------------------------------------------------- */

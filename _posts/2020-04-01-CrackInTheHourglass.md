@@ -26,7 +26,7 @@ The website was the main interface through which the participants interacted wit
 [Project in depth description](https://www.lozano-hemmer.com/a_crack_in_the_hourglass.php)
 
 								
-<video preload="metadata" width="480" height="270" controls  autoplay>
+<video  class="videoborder" preload="metadata" width="480" height="270" controls  autoplay>
 	<source src="https://www.lozano-hemmer.com/videos/media/a_crack_in_the_hourglass_new_york_2021_art21_001.mp4#t=0.1"  type="video/mp4">
 	<source src="https://www.lozano-hemmer.com/videos/media/a_crack_in_the_hourglass_new_york_2021_art21_001.ogv#t=0.1"  type="video/ogg">
 	<source src="https://www.lozano-hemmer.com/videos/media/a_crack_in_the_hourglass_new_york_2021_art21_001.webm#t=0.1" type="video/webm">
