@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2013-02-01 12:10:00
-year: 2013
 categories:
  - work
 tags: interactive  kinect

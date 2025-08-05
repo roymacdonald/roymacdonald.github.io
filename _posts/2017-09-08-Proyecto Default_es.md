@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2017-09-08 12:10:00
-year: 2017
 categories:
  - projects
 tags: xdefault, data visualization, interactive

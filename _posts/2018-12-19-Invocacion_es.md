@@ -1,6 +1,5 @@
 ---
 date: 2018-12-19 00:00:00 -0400
-year: 2018
 layout: post
 title: Invocación
 published: true

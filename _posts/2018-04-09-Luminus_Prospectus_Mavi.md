@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2018-04-09 12:10:00
-year: 2018
 categories:
  - projects
 tags: luminus prospectu, led mapping, luz, light

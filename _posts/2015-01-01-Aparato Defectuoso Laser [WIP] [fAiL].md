@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2015-01-01 12:10:00
-year: 2015
 categories:
  - projects
 tags: interactive

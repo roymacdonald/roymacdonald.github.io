@@ -1,6 +1,5 @@
 ---
 date: 2015-08-26 00:00:00 -0400
-year: 2015
 layout: post
 title: ofxSoundObjects
 subtitle: Modular sound engine for openFrameworks.

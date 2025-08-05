@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2017-11-15 12:10:00
-year: 2017
 categories:
  - projects
 tags: sfpc, recoded, collaborative

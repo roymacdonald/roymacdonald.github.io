@@ -1,6 +1,5 @@
 ---
 date: 2020-08-21 00:00:00 -0400
-year: 2020
 layout: post
 title: StyleGAN mixing console
 published: true

@@ -1,6 +1,5 @@
 ---
 date: 2019-10-16 00:00:00 -0400
-year: 2019
 layout: post
 title: Laser Tools
 published: true

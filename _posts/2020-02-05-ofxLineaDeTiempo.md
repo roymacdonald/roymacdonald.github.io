@@ -1,6 +1,5 @@
 ---
 date: 2020-02-05 00:00:00 -0400
-year: 2020
 layout: post
 title: ofxLineaDeTiempo
 subtitle: A new timeline addon for openFrameworks.

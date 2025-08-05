@@ -1,6 +1,5 @@
 ---
 date: 2023-04-01 00:00:00 -0400
-year: 2023
 layout: post
 title: Reality Field
 published: true
