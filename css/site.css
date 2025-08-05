@@ -350,6 +350,28 @@ table {
   color: #666;
 }
 
+/* Navigation
+------------------------------------------------------- */
+.post-navigation {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-navigation ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.post-navigation li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 /* Layout
 ------------------------------------------------------- */
 body{
