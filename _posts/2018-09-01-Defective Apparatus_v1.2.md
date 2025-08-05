@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-09-01 12:10:00
+year: 2018
 categories:
  - projects
 tags: laser, interactive, machine learning

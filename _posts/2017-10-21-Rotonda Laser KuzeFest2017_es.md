@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-21 12:10:00
+year: 2017
 categories:
  - projects
 tags: kuze, kuzefest, laser, laser mapping

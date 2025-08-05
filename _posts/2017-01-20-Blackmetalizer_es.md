@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-01-20 12:10:00
+year: 2017
 categories:
  - projects
 tags: sfpc

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2015-10-27 12:10:00
+year: 2015
 categories:
  - projects
 tags: data-viz sfpc

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2013-03-01 12:10:00
+year: 2013
 categories:
  - work
 tags: interactive android

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2008-03-01 12:10:00
+year: 2008
 categories:
  - work
 tags: motion graphics

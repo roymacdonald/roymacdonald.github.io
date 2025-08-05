@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2015-03-01 12:10:00
+year: 2015
 categories:
  - projects
 tags: live-visuals

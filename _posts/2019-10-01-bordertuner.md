@@ -1,5 +1,6 @@
 ---
 date: 2019-10-01 00:00:00 -0400
+year: 2019
 layout: post
 title: RLH's Border Tuner
 published: true

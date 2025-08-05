@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2012-08-21 12:10:00
+year: 2012
 categories:
  - work
 tags: interactive mapping
