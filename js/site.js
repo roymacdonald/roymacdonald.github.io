@@ -54,7 +54,7 @@ function updateDropdownMenu(L){
 $(function() {
 //console.log("function  ");
 $('#roymacdonald').mouseenter(function () {
-    $('#iam').animate({height: '125px'});
+    $('#iam').animate({height: '170px'});
   });
 $('.header').mouseleave(function () {
     $('#iam').animate({height: '0px'});
