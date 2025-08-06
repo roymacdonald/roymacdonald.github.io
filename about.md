@@ -28,6 +28,10 @@ On September 2018 [his work](https://roymacdonald.github.io//projects/2018/09/01
 
 From August 2019 to late February 2020, was a "Someting in Residence" at [RunwayML](https://runwayml.com/) doing [some](https://roymacdonald.github.io//projects/2020/08/21/SyleGAN_Mixer.html) [experiments](https://roymacdonald.github.io//projects/2020/08/19/How_NOT_to_train_your_GAN.html) with Machine Learning.
 
+Attended [Mars College](https://www.mars.college/) on 2021. After it he bought a bicycle to go back home on it. Spent a year cycling through Mexico and central America. Some plans changed and did not reach Chile on the bike. Back to Mars College on 2024, and then cycled through Europe in the summer of 2024.
+
+
+
 Currently he is residing in Santiago, Chile.
 
 Drop me a line: macdonald.roy (at) (the electronic mail from the big G).
