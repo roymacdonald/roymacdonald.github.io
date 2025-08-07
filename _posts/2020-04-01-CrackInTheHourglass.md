@@ -2,6 +2,7 @@
 date: 2020-04-01 00:00:00 -0400
 layout: post
 title: RLH's A crack in the Hourglass
+full_title: Rafael Lozano-Hemmer's A crack in the Hourglass
 published: true
 categories:
  - work

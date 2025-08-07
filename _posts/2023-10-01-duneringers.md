@@ -2,6 +2,7 @@
 date: 2023-10-01 00:00:00 -0400
 layout: post
 title: RLH's Dune Ringers
+full_title: Rafael Lozano-Hemmer's Dune Ringers
 published: true
 categories:
  - work

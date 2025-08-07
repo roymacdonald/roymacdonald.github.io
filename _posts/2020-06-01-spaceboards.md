@@ -2,6 +2,7 @@
 date: 2020-10-01 00:00:00 -0400
 layout: post
 title: AC's SpaceBoards
+full_title: Agnes Chavez' SpaceBoards
 published: true
 categories:
  - work

@@ -2,6 +2,7 @@
 date: 2023-10-01 00:00:00 -0400
 layout: post
 title: RLH's Shadow Tuner
+full_title: Rafael Lozano-Hemmer's Shadow Tuner
 published: true
 categories:
  - work

@@ -2,6 +2,7 @@
 date: 2023-10-01 00:00:00 -0400
 layout: post
 title: RLH's Translation Island
+full_title: Rafael Lozano-Hemmer's Translation Island
 published: true
 categories:
  - work
