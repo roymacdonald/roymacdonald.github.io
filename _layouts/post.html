@@ -4,8 +4,12 @@ layout: default
 {% include post_video.html %}
 <div class="post"> 
   <article class="post-content">
-  	<h1>{{ page.title }}</h1>
-  	{% if page.subtitle != nil %}
+  	{% if page.full_title != nil %}
+    <h1>{{ page.full_title }}</h1>
+    {% else %}
+    <h1>{{ page.title }}</h1>
+  	{% endif %}
+    {% if page.subtitle != nil %}
   	<h3>{{ page.subtitle }}</h3>
   	{% endif %}
 	{% if page.WIP != nil or page.FAIL != nil%}
