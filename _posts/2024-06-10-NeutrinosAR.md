@@ -12,21 +12,14 @@ poster_img: /img/neutrinos.jpg
 lang: en
 ---
 
+While visiting CERN, I collaborated with artist Agnes Chavez to envision, conceptualize, and develop an artwork centered on neutrino detectors and quantum physics.
 
-While visiting CERN I helped artist Agnes Chavez to envision, conceptualize and develop an artwork centered around Neutrino detectors and quantum physics.
+Agnes wanted to work with AR but wasn’t sure how to create 3D objects that truly captured her vision. I proposed a generative system — an approach that, at the time, was rare in AR, especially for 3D content. Relying on my experience, knowledge of available tools, and intuition, I decided to build a generative AR platform from scratch.
 
-She wanted to work with AR but was not clear on how to make 3d ojects that encapsulated her vision. A generative system seemed to be the best approach but generative 3d in AR did not seem to be something anyone else was doing. Although my experience, knowledge about available tools and intuition made me go for it and develop a generative AR platform.
+My background in particle physics allowed me to quickly understand and distill many of the scientific concepts involved. The generative system “depicts” a cloud of probabilities and the collapse of the wave function. When triggered, it reveals a cone of light inspired by the Cherenkov effect — the same phenomenon observed in neutrino detectors when a neutrino interacts with other particles, producing light captured by the detector’s ultra-sensitive photomultiplier tubes.
 
-Since I understand a good amount about particle physics it was not hard for me to understand and abstract a lot of the concepts in it.
+Because the project targeted mobile devices, we needed a lightweight application. We chose to work with simple lines and points instead of complex rendering, a choice that also complemented the hand-drawn line aesthetic Agnes envisioned.
 
-The generative system "depicts" a cloud of probabilities and the wave function collapse. When triggered will show a cone of light as the one from the Cherenkov effect, the very same one that happens in neutrino detectors when a neutrino interacts with other other particles and it is captured by the super sensitive light multipliers inside the detector.
+When a user taps the screen, they trigger a wave function collapse. Their position in space is recorded and shared in real time with all other participants.
 
-We needed a lightweight app as mobile phones were the intended devices to use. We chose to use simple lines and points rather than complicated or expensive rendering, which matched Agnes' "hand drawn" lines style she was aiming for.
-
-When an user taps its screen, they trigger a wave function collapse. Their position in space is recorded and shown to all the rest of the participants.
-
-As any generative system, this one too depended on many parameters that could be tweaked and that could jave some really radical differences in the looks, this parameters are not available to end users on their mobiles, but still needed to be tweaked by Agnes so she could get the looks that she liked. 
-
-
-
-
+Like any generative system, this one relied on numerous parameters that could drastically change its appearance. While these settings were hidden from end users, they needed to be adjustable for Agnes so she could fine-tune the visuals to match her creative intent.
