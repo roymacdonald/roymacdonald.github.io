@@ -7,8 +7,10 @@ published: true
 categories:
  - work
 tags: Agnes Chavez, Firebase, javascript, three.js, 8thwall, generative AR, generative 3d
-thumb: /thumbs/neutrinos.jpg
+thumb: /thumbs/neutrinocloud.jpg
 lang: en 
+galery_data: neutrinocloud
+galery_name: Images and Debug Views
 video_vimeo: 1108913400
 video_width: 958
 video_height: 540
