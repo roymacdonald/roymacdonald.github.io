@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300"/>
+   <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+  <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script> 
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <link href='/css/site.css' rel='stylesheet' />
+</head>
+
+<body>
+  <div class="header_port_dma">
+</div>
+  {{content}}
+{% for proj in site.data.fathom %}
+{% for post in site.posts %}
+{% if post.id == proj.id %}
+<div class="post" style="padding-top: 20px;">
+<div class="titulo_post_port">
+  {% if proj.link_url != nil %}
+  <h1><a href="{{ proj.link_url }}">{{ post.title }}</a></h1>
+  {% else %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  {% endif %}
+    {% if post.subtitle != nil %}
+    <h3>{{ post.subtitle }}</h3>
+    {% endif %}
+  </div>
+
+{% if post.video_vimeo != nil  %}
+<div class="video_header_port" style="width:100%; height: calc(width *  {{post.video_height}} / {{post.video_width}} );">
+  <iframe src="https://player.vimeo.com/video/{{post.video_vimeo}}?portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+{% endif  %}
+
+{% if proj.video_vimeo != nil  %}
+<div class="video_header_port" style="width:100%; height: calc(width *  {{post.video_height}} / {{post.video_width}} );">
+  <iframe src="https://player.vimeo.com/video/{{proj.video_vimeo}}?portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+{% endif  %}
+
+
+{% if proj.video_url != nil  %}
+{% include video_rlh.html video_url=proj.video_url %}
+{% endif  %}
+
+
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+<div class="port_footer"></div>
+
+</body>
+
+</html>

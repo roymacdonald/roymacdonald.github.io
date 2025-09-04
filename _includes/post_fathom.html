@@ -1,0 +1,31 @@
+<!-- <div class="division"></div> -->
+<div class="post">
+<div class="titulo_post_port">
+	<h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h1>
+  	{% if include.post.subtitle != nil %}
+  	<h3>{{ include.post.subtitle }}</h3>
+  	{% endif %}
+  </div>
+
+{% if include.post.video_vimeo != nil  %}
+<div class="video_header_port" style="width:100%; height: calc(width *  {{include.post.video_height}} / {{include.post.video_width}} );">
+	<iframe src="https://player.vimeo.com/video/{{include.post.video_vimeo}}?portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+{% endif  %}
+{% if include.post.poster_img != nil  %}
+<div class="img_poster">
+	<img src="{{include.post.poster_img}}" width="100%" ></img>
+</div>
+{% endif  %}
+{% if include.post.video_gdrive != nil  %}
+<div class="video_header_port">
+	<iframe src="{{include.post.video_gdrive}}" width="100%" height="100%"></iframe>
+</div>
+{% endif  %}
+
+<!--   <article class="post-content">
+    {{ include.post.content }}
+  </article> -->
+
+</div>
+<!-- {% include gallery.html post=include.post %} -->
